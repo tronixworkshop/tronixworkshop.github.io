@@ -91,7 +91,7 @@ header
 .main-menu .navbar-brand > img {
     display: block;
     margin-right: 45px;
-    padding: 0 0;
+    padding: 7px 0;
 }
 
 .icon-right {
@@ -508,7 +508,7 @@ about me
 }
 
 .about-me-widget {
-    background: url(assets/images/me-cover.jpg) no-repeat;
+    background: url(assets/images/my-shop.jpg) no-repeat;
     background-size: 100%;
     background-color: #fff;
 }

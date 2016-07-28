@@ -1,15 +1,108 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <div class="post-thumb">
+          <a href="blog.html"><img src="/images/workshop.jpg" alt="tronixcircuits-electronic-lab"></a>
+      </div>
+      <div class="post-content">
+          <header class="entry-header text-center text-uppercase">
+              <h6><a href="{{ post.url | prepend: site.baseurl }}">{{page.categories}}</a></h6>
+              <h1 class="entry-title" itemprop="name headline"><a href="{{ post.url | prepend: site.baseurl }}">{{page.title}}</a></h1>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+          </header>
+          <div class="entry-content" itemprop="articleBody">
+              {{ content }}
+          </div>
+
+          <div class="decoration">
+          {% for category in page.categories %}
+              <a  class="btn btn-default" href="{{ site.url }}/{{ page.categories-url }}/" rel="category">{{ page.categories }}</a>
+            {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+         </div>
+
+          <div class="social-share">
+
+
+            <p class="social-share-title pull-left text-capitalize">
+              {% if page.author %}
+              By <span itemprop="author"
+              itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+              {% endif %}
+              On
+              <time datetime="{{ page.date | date_to_xmlschema }}"
+                itemprop="datePublished">{{ page.date |  date: '%B %d, %Y' }}
+              </time>
+            </p>
+
+
+              <!-- <span class="social-share-title pull-left text-capitalize" itemprop="datePublished">By
+                 <a href="#">Andy</a> On {{ post.date | date: '%B %d, %Y' }}</span> -->
+
+              <ul class="text-center pull-right">
+                  <li><a class="s-facebook" href=""><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="s-twitter" href=""><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="s-google-plus" href=""><i class="fa fa-google-plus"></i></a></li>
+                  <li><a class="s-linkedin" href=""><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="s-instagram" href=""><i class="fa fa-instagram"></i></a></li>
+              </ul>
+          </div>
+      </div>
+  </article>
+
+  <div class="bottom-comment"><!--bottom comment-->
+      <h4>3 comments</h4>
+
+      <div class="comment-img">
+          <img class="img-circle" src="/assets/images/comment-img.jpg" alt="">
+      </div>
+
+      <div class="comment-text">
+          <a href="#" class="replay btn pull-right"> Replay</a>
+          <h5>Rubel Miah</h5>
+
+          <p class="comment-date">
+              December, 02, 2015 at 5:57 PM
+          </p>
+
+
+          <p class="para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam nonumy
+              eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua. At vero eos et cusam et justo duo dolores et ea rebum.</p>
+      </div>
   </div>
+  <!-- end bottom comment-->
 
-</article>
+  <div class="leave-comment"><!--leave comment-->
+      <h4>Leave a reply</h4>
+
+
+      <form class="form-horizontal contact-form" role="form" method="post" action="#">
+          <div class="form-group">
+              <div class="col-md-6">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+              </div>
+              <div class="col-md-6">
+                  <input type="email" class="form-control" id="email" name="email"
+                         placeholder="Email">
+              </div>
+          </div>
+
+          <div class="form-group">
+              <div class="col-md-12">
+                  <input type="text" class="form-control" id="subject" name="subject"
+                         placeholder="Website url">
+              </div>
+          </div>
+          <div class="form-group">
+              <div class="col-md-12">
+      <textarea class="form-control" rows="6" name="message"
+                                    placeholder="Write Massage"></textarea>
+              </div>
+          </div>
+          <a href="#" class="btn send-btn">Post Comment</a>
+      </form>
+  </div><!--end leave comment-->
