@@ -5,6 +5,7 @@ date:   2016-07-26 22:31:01 +0100
 categories: Lab-Build
 permalink: /electronics-lab-build/
 author: Andy Devanney
+image: "/images/workshop.jpg"
 ---
 
 Last summer i decided to convert my garage into an electronics lab. I wanted
