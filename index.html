@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
   <!-- {% for post in site.posts %}
 
   {% endfor %} -->
@@ -11,29 +10,6 @@ layout: default
  {% include post.html %}
 {% endfor %}
 
-<!--
-<ul class="pagination">
-{% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <li>
-        <a>{{ page }}</a>
-      </li>
-    {% elsif page == 1 %}
-    <li>
-      <a class="active" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    </li>
-    {% else %}
-      <li>
-        <a class="active" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      <li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-
-
-<br> -->
-
-
 <ul class="pagination">
   {% if paginator.previous_page %}
      <li  class="prev">
@@ -41,21 +17,13 @@ layout: default
      </li>
   {% endif %}
 
-   {% if paginator.page == 1 %}
-  		<li class="active" >
-          <a href="/">1</a>
-      </li>
-    {%else%}
-    <li >
+		<li {% if paginator.page == 1 %} class="active" {% endif %}>
         <a href="/">1</a>
     </li>
-    {% endif %}
-
-      
 
   {% for count in (2..paginator.total_pages) %}
-  		<li>
-        <a {% if paginator.page == count %}class="active" {% endif %}href="/page{{ count }}">{{ count }}</a>
+  		<li {%if paginator.page == count %}class="active" {% endif %}>
+        <a  href="/page{{ count }}">{{ count }}</a>
       </li>
   {% endfor %}
   {% if paginator.next_page %}
@@ -64,16 +32,6 @@ layout: default
        </li>
   {% endif %}
 </ul>
-
-
-
-
-      <!-- <li class="active"><a href="#">1</a></li>
-      <li><a href="#">2</a></li>
-      <li><a href="#">3</a></li>
-      <li><a href="#">4</a></li>
-      <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li> -->
-
 
 
 <!-- <div class="home">
