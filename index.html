@@ -3,21 +3,76 @@ layout: default
 ---
 
 
-  {% for post in site.posts %}
-        {% include post.html %}
+  <!-- {% for post in site.posts %}
+
+  {% endfor %} -->
+
+{% for post in paginator.posts %}
+ {% include post.html %}
+{% endfor %}
+
+<!--
+<ul class="pagination">
+{% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <li>
+        <a>{{ page }}</a>
+      </li>
+    {% elsif page == 1 %}
+    <li>
+      <a class="active" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    </li>
+    {% else %}
+      <li>
+        <a class="active" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      <li>
+    {% endif %}
   {% endfor %}
-
-
-  <ul class="pagination">
-      <li class="active"><a href="#">1</a></li>
-      <li><a href="#">2</a></li>
-      <li><a href="#">3</a></li>
-      <li><a href="#">4</a></li>
-      <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
   </ul>
 
 
+<br> -->
 
+
+<ul class="pagination">
+  {% if paginator.previous_page %}
+     <li  class="prev">
+       <a href="/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}"><i class="fa fa-angle-double-left"></i></a>
+     </li>
+  {% endif %}
+
+   {% if paginator.page == 1 %}
+  		<li class="active" >
+          <a href="/">1</a>
+      </li>
+    {%else%}
+    <li >
+        <a href="/">1</a>
+    </li>
+    {% endif %}
+
+      
+
+  {% for count in (2..paginator.total_pages) %}
+  		<li>
+        <a {% if paginator.page == count %}class="active" {% endif %}href="/page{{ count }}">{{ count }}</a>
+      </li>
+  {% endfor %}
+  {% if paginator.next_page %}
+       <li>
+         <a href="/page{{ paginator.next_page }}"><i class="fa fa-angle-double-right"></i></a>
+       </li>
+  {% endif %}
+</ul>
+
+
+
+
+      <!-- <li class="active"><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li> -->
 
 
 
