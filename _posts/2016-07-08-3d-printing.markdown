@@ -2,7 +2,7 @@
 layout: post
 title:  "My 3d Printer review"
 date:   2016-08-02 00:10:01 +0100
-categories: project
+categories: Reviews
 <!-- permalink: /timer-circuit/ -->
 author: Andy Devanney
 image: "/images/workshop.jpg"

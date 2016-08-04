@@ -2,7 +2,7 @@
 layout: post
 title:  "Lab Temperature and Humidity Controller"
 date:   2016-07-26 22:31:01 +0100
-categories: Lab-Build
+categories: Project
 <!-- permalink: /electronics-lab-build/ -->
 author: Andy Devanney
 image: "/images/workshop.jpg"
