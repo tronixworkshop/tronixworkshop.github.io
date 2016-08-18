@@ -5,6 +5,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+collections:
+    my_categories:
+    output: true
+    permalink: /category/:name/
+#   _tags:
+#     output: true
+# permalink: /blog/tag/:name/
+
+
 gems:
    - jekyll-paginate
 
