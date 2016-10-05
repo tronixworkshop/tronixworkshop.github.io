@@ -2,10 +2,10 @@
 layout: post
 title:  "Lab Temperature and Humidity Controller"
 date:   2016-07-26 22:31:01 +0100
-category: Project
-<!-- permalink: /electronics-lab-build/ -->
 author: Andy Devanney
 image: "/images/workshop.jpg"
+category: projects
+tags: [github, github-pages, jekyll]
 ---
 
 Last summer i decided to convert my garage into an electronics lab. I wanted

@@ -16,23 +16,36 @@ layout: default
               {{ content }}
           </div>
 
-          <div class="decoration">
+          <!-- <div class="decoration">
           {% for category in page.categories %}
                <a  class="btn btn-default" href="{{ site.url }}/{{ page.categories-url }}/" rel="category">{{ page.categories }}</a>
             {% unless forloop.last %},{% endunless %}
           {% endfor %}
+         </div> -->
+
+
+         <div class="decoration">
+            {% assign category = site.my_categories | where: "slug", page.category %}
+            {% assign category = category[0] %}
+            {% if category %}
+                {% capture category_content %}
+                <a class="btn btn-default" href="{{ category.url }}">{{ category.name }}</a>
+                {% endcapture %}
+                    <p>{{ category_content }}</p>
+            {% endif %}
          </div>
 
 
-         {% for category in site.my_categories %}
-             hello - {{ category.name }}
-         {% endfor %}
 
-         {% assign category = site._categories | where: "slug", page.categories %}
-          {% assign category = category[0] %}
-          {% if category %}
-            {% capture category_content %}<a class="label" href="{{ category.url }}" style="background-color:{{ category.color }}">{{ category.name }}</a>{% endcapture %}
-        {% endif %}
+
+
+
+
+
+
+
+
+
 
           <div class="social-share">
 

@@ -36,17 +36,37 @@
 
       <aside class="widget border pos-padding">
           <h3 class="widget-title text-uppercase text-center">Categories</h3>
-
         <ul>
-
           {% for category in site.categories %}
           <li>
-            <a href="{{ site.url }}/{{ site.categories-url }}/">  {{ category | first }}</a>
+            <a href="{{ site.url }}/{{ site.categories-url }}">  {{ category | first }}</a>
             <span class="post-count pull-right">({{ category | last | size }})</span>
           </li>
           {% endfor %}
-
         </ul>
       </aside>
+
+      <aside class="widget border pos-padding">
+          <h3 class="widget-title text-uppercase text-center">Categories</h3>
+        <ul>
+          {% for category in site.my_categories %}
+          <li>
+            <a href="{{category.url}}"> {{category.name}}</a>
+            <span class="post-count pull-right">({{ category | last | size }})</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </aside>
+
+      <div class="decoration">
+         {% assign category = site.my_categories | where: "slug", page.category %}
+         {% assign category = category[0] %}
+         {% if category %}
+             {% capture category_content %}
+             <a class="btn btn-default" href="{{ category.url }}">{{ category.name }}</a>
+             {% endcapture %}
+                 <p>{{ category_content }}</p>
+         {% endif %}
+      </div>
 
   </div>
