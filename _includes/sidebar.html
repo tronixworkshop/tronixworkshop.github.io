@@ -1,53 +1,10 @@
 
   <div class="primary-sidebar">
 
-      <aside class="widget about-me-widget">
-          <div class="about-me-img">
+      {% include aboutme.html %}
 
-              <div class="about-me-content text-center">
-                  <img src="/assets/images/me.jpg" alt="" class="img-me">
+      <!-- {% include newsletter.html %} -->
 
-                  <h3 class="text-uppercase">Andrew Devanney</h3>
-
-                  <p>Andrew Devanney is a ful time professional software developer and electronics hobbyist</p>
-              </div>
-          </div>
-          <div class="social-share">
-              <ul class="text-center text-center">
-                  <li><a class="s-facebook" href=""><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="s-twitter" href=""><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="s-google-plus" href=""><i class="fa fa-google-plus"></i></a></li>
-                  <li><a class="s-linkedin" href=""><i class="fa fa-linkedin"></i></a></li>
-                  <li><a class="s-instagram" href=""><i class="fa fa-instagram"></i></a></li>
-              </ul>
-          </div>
-      </aside>
-
-      <aside class="widget news-letter">
-          <h3 class="widget-title text-uppercase text-center">Get Newsletter</h3>
-
-          <form action="#">
-              <input type="email" placeholder="Your email address">
-              <input type="submit" value="Subscribe Now"
-                     class="text-uppercase text-center btn btn-subscribe">
-          </form>
-
-      </aside>
-
-      <aside class="widget border pos-padding">
-          <h3 class="widget-title text-uppercase text-center">Categories</h3>
-        <ul>
-          {% for category in site.categories %}
-
-          {% assign selectedCat = category | first %}
-          {% assign catFromcollection = site.my_categories | where: "slug", selectedCat %}
-          {% assign cat = catFromcollection[0] %}
-          <li>
-            <a href="{{ cat.url }}">  {{ cat.name}}</a>
-            <span class="post-count pull-right">({{ category | last | size }})</span>
-          </li>
-          {% endfor %}
-        </ul>
-      </aside>
+      {% include categorylist.html %}
 
   </div>

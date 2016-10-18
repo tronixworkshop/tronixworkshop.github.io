@@ -1,0 +1,15 @@
+<aside class="widget border pos-padding">
+    <h3 class="widget-title text-uppercase text-center">Categories</h3>
+  <ul>
+    {% for category in site.categories %}
+
+    {% assign selectedCat = category | first %}
+    {% assign catFromcollection = site.my_categories | where: "slug", selectedCat %}
+    {% assign cat = catFromcollection[0] %}
+    <li>
+      <a href="{{ cat.url }}">  {{ cat.name}}</a>
+      <span class="post-count pull-right">({{ category | last | size }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+</aside>

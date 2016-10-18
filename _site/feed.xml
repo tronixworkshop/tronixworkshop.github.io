@@ -4,11 +4,11 @@
     <title>tronixcircuits.io</title>
     <description>tronixcircuits.io is a blog about electronics projects using anything from 555 timers to microcontrollers created by andrew devanney to record project progress
 </description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Oct 2016 00:27:08 +0100</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2016 00:27:08 +0100</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 18 Oct 2016 11:03:00 +0100</pubDate>
+    <lastBuildDate>Tue, 18 Oct 2016 11:03:00 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>My 3d Printer review</title>
@@ -16,8 +16,8 @@
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Aug 2016 00:10:01 +0100</pubDate>
-        <link>http://localhost:4000//reviews/2016/08/02/3d-printing.html</link>
-        <guid isPermaLink="true">http://localhost:4000//reviews/2016/08/02/3d-printing.html</guid>
+        <link>http://localhost:4000/reviews/2016/08/02/3d-printing.html</link>
+        <guid isPermaLink="true">http://localhost:4000/reviews/2016/08/02/3d-printing.html</guid>
         
         <category>github</category>
         
@@ -36,8 +36,8 @@
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Aug 2016 00:00:01 +0100</pubDate>
-        <link>http://localhost:4000//hacks/2016/08/02/hack-a-camera-lcd.html</link>
-        <guid isPermaLink="true">http://localhost:4000//hacks/2016/08/02/hack-a-camera-lcd.html</guid>
+        <link>http://localhost:4000/hacks/2016/08/02/hack-a-camera-lcd.html</link>
+        <guid isPermaLink="true">http://localhost:4000/hacks/2016/08/02/hack-a-camera-lcd.html</guid>
         
         <category>github</category>
         
@@ -56,8 +56,8 @@
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Aug 2016 00:00:01 +0100</pubDate>
-        <link>http://localhost:4000//projects/2016/08/01/etch-tank-timer-and-heater.html</link>
-        <guid isPermaLink="true">http://localhost:4000//projects/2016/08/01/etch-tank-timer-and-heater.html</guid>
+        <link>http://localhost:4000/projects/2016/08/01/etch-tank-timer-and-heater.html</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/2016/08/01/etch-tank-timer-and-heater.html</guid>
         
         <category>github</category>
         
@@ -76,8 +76,8 @@
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 31 Jul 2016 00:00:01 +0100</pubDate>
-        <link>http://localhost:4000//projects/2016/07/31/reflow-oven-build.html</link>
-        <guid isPermaLink="true">http://localhost:4000//projects/2016/07/31/reflow-oven-build.html</guid>
+        <link>http://localhost:4000/projects/2016/07/31/reflow-oven-build.html</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/2016/07/31/reflow-oven-build.html</guid>
         
         <category>github</category>
         
@@ -96,8 +96,8 @@
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 30 Jul 2016 00:00:01 +0100</pubDate>
-        <link>http://localhost:4000//projects/2016/07/30/attiny-on-a-breadboard.html</link>
-        <guid isPermaLink="true">http://localhost:4000//projects/2016/07/30/attiny-on-a-breadboard.html</guid>
+        <link>http://localhost:4000/projects/2016/07/30/attiny-on-a-breadboard.html</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/2016/07/30/attiny-on-a-breadboard.html</guid>
         
         <category>github</category>
         
@@ -116,8 +116,8 @@
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 29 Jul 2016 00:00:01 +0100</pubDate>
-        <link>http://localhost:4000//projects/2016/07/29/exposure-unit-timer.html</link>
-        <guid isPermaLink="true">http://localhost:4000//projects/2016/07/29/exposure-unit-timer.html</guid>
+        <link>http://localhost:4000/projects/2016/07/29/exposure-unit-timer.html</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/2016/07/29/exposure-unit-timer.html</guid>
         
         <category>github</category>
         
@@ -148,8 +148,8 @@ rather than have extension stuck to the wall …
 &lt;p&gt;&lt;img src=&quot;/images/workshop.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Jul 2016 22:31:01 +0100</pubDate>
-        <link>http://localhost:4000//projects/2016/07/26/garage-temperature-controller.html</link>
-        <guid isPermaLink="true">http://localhost:4000//projects/2016/07/26/garage-temperature-controller.html</guid>
+        <link>http://localhost:4000/projects/2016/07/26/garage-temperature-controller.html</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/2016/07/26/garage-temperature-controller.html</guid>
         
         <category>github</category>
         
@@ -180,8 +180,8 @@ rather than have extension stuck to the wall …
 &lt;p&gt;&lt;img src=&quot;/images/workshop.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Jul 2016 22:31:01 +0100</pubDate>
-        <link>http://localhost:4000//lab-build/2016/07/26/new-lab-build.html</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-build/2016/07/26/new-lab-build.html</guid>
+        <link>http://localhost:4000/lab-build/2016/07/26/new-lab-build.html</link>
+        <guid isPermaLink="true">http://localhost:4000/lab-build/2016/07/26/new-lab-build.html</guid>
         
         <category>github</category>
         

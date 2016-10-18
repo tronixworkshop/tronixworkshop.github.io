@@ -14,10 +14,10 @@ gems:
    - jekyll-paginate
 
 # Site settings
-title: tronixcircuits.io
-email: info@tronixcircuits.io
+title: tronixworkshop.io
+email: info@tronixworkshop.io
 description: > # this means to ignore newlines until "baseurl:"
-  tronixcircuits.io is a blog about electronics projects using
+  tronixworkshop.io is a blog about electronics projects using
   anything from 555 timers to microcontrollers
   created by andrew devanney to record project progress
 baseurl: "" # the subpath of your site, e.g. /blog
