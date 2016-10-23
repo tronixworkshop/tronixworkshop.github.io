@@ -1,0 +1,16 @@
+---
+layout: page
+title: Circuit Collection
+permalink: /circuitcollection/
+---
+
+<article class="post">
+  <div class="page-header text-center">
+    <h1>{{page.title}}</h1>
+  </div>
+
+  {% for post in site.circuits %}
+    {% include circuit-listing.html %}
+  {% endfor %}
+
+</article>

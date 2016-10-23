@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<article class="post">
+  <div class="post-content">
+    <header class="entry-header text-center text-uppercase">
+      <h1 class="entry-title" itemprop="name headline">{{page.title}}</h1>
+    </header>
+
+    <div class="post-thumb">
+      <img src="{{page.image}}" alt="{{site.title}}-electronic-lab">
+    </div>
+
+    <div class="download-button">
+      <a class="btn btn-default" href="https://github.com/tronixworkshop/tronixworkshop.github.io">
+       <i class="fa fa-github fa-2x download-button-ico" aria-hidden="true"></i>
+        <span class="download-button-text">Download On GitHub</span>
+      </a>
+    </div>
+
+    <div class="entry-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+
+    <div class="social-share">
+
+          <p class="social-share-title pull-left text-capitalize">
+            {% if page.author %}
+            By <span itemprop="author"
+            itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+            {% endif %}
+            On
+            <time datetime="{{ page.date | date_to_xmlschema }}"
+              itemprop="datePublished">{{ page.date |  date: '%B %d, %Y' }}
+            </time>
+          </p>
+
+          <ul class="text-center pull-right">
+                <li><a class="s-facebook" href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a class="s-twitter" href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a class="s-instagram" href=""><i class="fa fa-instagram"></i></a></li>
+          </ul>
+    </div>
+
+  </div>
+</article>

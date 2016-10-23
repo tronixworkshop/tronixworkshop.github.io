@@ -1,0 +1,26 @@
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <caption>{{page.circuit-id}}</caption>
+    <thead>
+      <tr>
+        <th>Qty</th>
+        <th>Part Id</th>
+        <th>Part Description</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      {% assign components = (site.data.listings | where: "id" , page.circuit-id) %}
+      {% for part in components %}
+          <tr>
+            <td>{{part.qty}}</td>
+            <td>{{part.name}}</td>
+            <td>{{part.description}}</td>
+            <td>{{part.value}}</td>
+          </tr>
+       {% endfor %}
+    </tbody>
+  </table>
+</div>

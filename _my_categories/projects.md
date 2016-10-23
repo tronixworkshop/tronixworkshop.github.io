@@ -1,5 +1,5 @@
 ---
-layout: categorypage
+layout: category-page
 slug: projects
 name: Projects
 ---

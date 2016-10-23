@@ -9,6 +9,8 @@ collections:
     my_categories:
       output: true
       permalink: /categories/:name/
+    circuits:
+      output: true
 
 gems:
    - jekyll-paginate
