@@ -471,7 +471,12 @@ pagination
     border-radius: 4px;
 }
 
-.pagination > li > a, .pagination > li > span {
+.pagination a span {
+  line-height: 16px;
+}
+
+.pagination > li > a,
+.pagination > li > span {
     position: relative;
     float: left;
     padding: 6px 12px;
@@ -484,7 +489,6 @@ pagination
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     font-weight: 600;
-
 }
 
 .pagination > li:first-child > a,
