@@ -1,0 +1,20 @@
+<div class="social-share">
+
+      <p class="social-share-title pull-left text-capitalize">
+
+        {% if include.author %} By
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ include.author }}</span>
+        </span>
+        {% endif %}
+
+        On
+        <!-- <time datetime="{{ post.date | date_to_xmlschema }}"
+          itemprop="datePublished">{{ include.date |  date: '%B %d, %Y' }}
+        </time> -->
+      </p>
+
+      <ul class="text-center pull-right">
+          {% include social-links.html %}
+      </ul>
+</div>

@@ -7,7 +7,7 @@
         </a>
     </div>
     <div class="post-content">
-        <header class="entry-header text-center text-uppercase">
+        <header class="entry-header text-center">
             <h6><a href="{{ post.url | prepend: site.baseurl }}">{{post.categories}}</a></h6>
             <h1 class="entry-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
         </header>
@@ -17,19 +17,10 @@
                 <a href="{{ post.url | prepend: site.baseurl }}" class="more-link">Continue Reading</a>
             </div>
         </div>
-        <div class="social-share">
 
-           <span class="social-share-title pull-left text-capitalize">By
-              {% if post.author %}
-                By <span>{{ post.author }}</span>
-              {% endif %}
-              On {{ post.date | date: '%B %d, %Y' }}
-           </span>
+        {% comment %}
+          {% include social-share.html author=page.author%}
+        {% endcomment %}
 
-            <ul class="text-center pull-right">
-                <li><a class="s-twitter" href=""><i class="fa fa-twitter"></i></a></li>
-                <li><a class="s-instagram" href=""><i class="fa fa-instagram"></i></a></li>
-            </ul>
-        </div>
     </div>
 </article>

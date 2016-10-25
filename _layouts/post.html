@@ -27,25 +27,14 @@ layout: default
             {% endif %}
          </div>
 
-      <div class="social-share">
 
-            <p class="social-share-title pull-left text-capitalize">
-              {% if page.author %}
-              By <span itemprop="author"
-              itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-              {% endif %}
-              On
-              <time datetime="{{ page.date | date_to_xmlschema }}"
-                itemprop="datePublished">{{ page.date |  date: '%B %d, %Y' }}
-              </time>
-            </p>
+         {% comment %}
+           {% include social-share.html author=page.author%}
+         {% endcomment %}
 
-              <ul class="text-center pull-right">
-                  <li><a class="s-facebook" href=""><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="s-twitter" href=""><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="s-instagram" href=""><i class="fa fa-instagram"></i></a></li>
-              </ul>
-          </div>
+
+
+
       </div>
   </article>
 
