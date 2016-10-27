@@ -9,9 +9,9 @@
         {% endif %}
 
         On
-        <!-- <time datetime="{{ post.date | date_to_xmlschema }}"
-          itemprop="datePublished">{{ include.date |  date: '%B %d, %Y' }}
-        </time> -->
+        <time datetime="{{ include.datePublished | date_to_xmlschema }}"
+          itemprop="datePublished">{{ include.datePublished |  date: '%B %d, %Y' }}
+        </time>
       </p>
 
       <ul class="text-center pull-right">

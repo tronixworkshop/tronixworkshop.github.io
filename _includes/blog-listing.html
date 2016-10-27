@@ -17,10 +17,8 @@
                 <a href="{{ post.url | prepend: site.baseurl }}" class="more-link">Continue Reading</a>
             </div>
         </div>
-
-        {% comment %}
-          {% include social-share.html author=page.author%}
-        {% endcomment %}
+        
+        {% include social-share.html author = post.author datePublished = post.date %}
 
     </div>
 </article>
