@@ -1,0 +1,42 @@
+/*--------------------------------------
+    preload
+--------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
+
+/*--------------------------------------
+    elements
+--------------------------------------*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F4F4F4;
+}
+
+span, p, input {
+    font-family: 'Merriweather', serif;
+    line-height: 26px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.media .media-left{
+    float: left;
+}

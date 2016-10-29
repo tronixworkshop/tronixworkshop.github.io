@@ -1,0 +1,42 @@
+/*=======
+post grid
+=========*/
+.post-grid .post-content {
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+.post-grid .entry-header {
+    margin: 31px 0 20px;
+}
+
+.post-grid .entry-header h1, .post-list .entry-header h1 {
+    margin: 0;
+    line-height: 24px;
+}
+
+.post-grid .entry-header h1 a, .post-list .entry-header h1 a {
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.post-grid .social-share, .post-list .social-share {
+    border: 0;
+    padding: 0 0 40px;
+}
+
+.post-grid .social-share-title {
+    padding: 10px 0 30px;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.post-list .entry-header {
+    margin: 22px 0;
+}
+
+.post-list .post-content {
+    padding: 0 20px 0 0;
+    overflow: hidden;
+}

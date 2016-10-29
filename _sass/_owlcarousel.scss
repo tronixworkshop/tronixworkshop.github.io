@@ -1,0 +1,34 @@
+
+/*==================
+owl carousel
+==============*/
+
+#widget-feature:hover .owl-controls .owl-buttons .owl-prev {
+    left: 10px;
+}
+
+#widget-feature .owl-controls .owl-buttons .owl-prev {
+    left: -50px;
+}
+
+#widget-feature:hover .owl-controls .owl-buttons .owl-next {
+    right: 10px;
+}
+
+#widget-feature .owl-controls .owl-buttons .owl-next {
+    right: -50px;
+}
+
+#widget-feature .owl-controls .owl-buttons div {
+    background: none;
+    border-radius: 0;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}

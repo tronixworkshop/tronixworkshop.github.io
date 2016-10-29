@@ -1,0 +1,169 @@
+
+
+
+
+
+/* ==================
+related post section
+=====================*/
+
+.related-post-carousel {
+    padding: 20px 20px 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #212121;
+}
+
+.related-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #212121;
+    font-weight: 700;
+}
+
+.single-item p {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.related-post-carousel .owl-buttons {
+    position: absolute;
+    top: -45px;
+    right: 12px;
+}
+
+.related-post-carousel .owl-theme .owl-controls .owl-buttons div {
+    color: #333;
+    margin: 5px;
+    padding: 0 5px;
+    font-size: 22px;
+    background: transparent;
+}
+
+.single-item p {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.single-item p {
+    text-align: center;
+    padding-bottom: 0;
+    color: #444444;
+}
+
+.bottom-comment {
+    background: #fff;
+    padding: 20px;
+    margin: 50px 0;
+    color: #212121;
+    overflow: hidden;
+}
+
+.bottom-comment .comment-text {
+    padding: 2px;
+}
+
+.bottom-comment h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.bottom-comment .comment-img {
+    padding: 10px 15px 100px;
+    float: left;
+}
+
+.bottom-comment h5 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.bottom-comment p.comment-date {
+    color: #888888;
+}
+
+.bottom-comment p.para {
+    color: #212121;
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.bottom-comment a.replay {
+    text-transform: uppercase;
+    color: #212121;
+    background: #eee;
+}
+
+.bottom-comment a.replay:hover {
+    background-color: #ddd;
+}
+
+.leave-comment {
+    background-color: #fff;
+    margin: 30px 0;
+    padding: 20px;
+    color: #212121;
+
+}
+
+.leave-comment h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.leave-comment input, .leave-comment textarea {
+    background-color: #FAFAFA;
+    color: #999999;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 10px;
+    height: 100%;
+    border-color: #eee;
+    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, .075);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .075);
+    -moz-box-sizing: border-box;
+
+}
+
+.leave-comment input[type="text"] + input[type="email"] {
+    border: 1px solid #eeeeee;
+    font-style: italic;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea {
+    border-color: #eee;
+    outline: none;
+    border: 1px solid;
+}
+
+.form-control:focus {
+    border-color: #eee;
+    outline: 0;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .075), 0 0 0 rgba(102, 175, 233, .6);
+}
+
+.send-btn {
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all .33s;
+    transition: all .33s;
+    border-radius: 0;
+}
+
+.send-btn:hover {
+    background: #00BFF3;
+    color: #fff;
+}

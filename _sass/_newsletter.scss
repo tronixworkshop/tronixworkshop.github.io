@@ -1,0 +1,40 @@
+
+/*=============
+subscribe newsletter
+================*/
+
+.news-letter input[type="email"] {
+    width: 100%;
+    margin-bottom: 14px;
+    border: 1px solid #eeeeee;
+    padding: 5px 15px;
+    font-style: italic;
+    border-radius: 0;
+    background: #fafafa;
+}
+
+.btn-subscribe {
+    width: 100%;
+    background-color: #333333;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0;
+    -webkit-transition: all 0.33s;
+    transition: all 0.33s;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 9px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-subscribe:hover {
+    background-color: #00BFF3;
+    color: #fff;
+}
+
+.widget-title {
+    font-size: 18px;
+    margin: 0 0 25px;
+    letter-spacing: 0.5px;
+    color: #333333;
+}

@@ -1,0 +1,56 @@
+
+
+/*=====
+feature post
+=======*/
+#widget-feature {
+    overflow: hidden;
+}
+
+.feature-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-content img {
+    width: 100%;
+}
+
+.feature-content h5 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    letter-spacing: .5px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: all 0.44s;
+    transition: all 0.44s;
+    color: #fff;
+
+}
+
+.feature-content:hover .overlay-text {
+
+    color: #fff;
+    text-decoration: none;
+}

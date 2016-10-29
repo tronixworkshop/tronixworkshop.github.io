@@ -1,0 +1,27 @@
+
+/*======
+recent post
+========*/
+.thumb-latest-posts {
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+}
+
+.thumb-latest-posts:first-of-type {
+    padding-top: 0;
+}
+
+.thumb-latest-posts:last-child {
+    border-bottom: 0 solid #eee;
+    padding: 12px 0 0;
+}
+
+.media .popular-img {
+    position: relative;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.media .popular-img img {
+    width: auto;
+}

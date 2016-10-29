@@ -1,0 +1,54 @@
+/*===============
+ coming soon
+ ===============*/
+.coming-soon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.55);
+
+}
+
+.coming-soon {
+    background: url(assets/images/coming-soon.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.coming-soon h4 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.coming-soon h3 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+
+.coming-soon p {
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 20px;
+}

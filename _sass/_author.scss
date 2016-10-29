@@ -1,0 +1,137 @@
+
+/*==============
+author
+===================*/
+/* review section */
+#review {
+    color: #2f3132;
+    letter-spacing: 1px;
+}
+
+.single-review {
+    padding-top: 30px;
+}
+
+.review-text {
+    border-width: 1px 1px 1px;
+    border-style: solid;
+    border-color: #fff;
+    padding: 18px;
+    position: relative;
+}
+
+.review-text p {
+    font-size: 13px;
+    color: #fff;
+    font-style: italic;
+    margin: 0;
+}
+
+.review-text::after, .review-text::before {
+    top: 100%;
+    left: 15%;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+.review-text::after {
+    border-right: 17px solid transparent;
+    border-top: 18px solid #333333;
+    border-left: 7px solid transparent;
+}
+
+.review-text::before {
+    border-right: 19px solid transparent;
+    border-top: 20px solid #fff;
+    border-left: 6px solid transparent;
+}
+
+.carousel-indicators li {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.carousel-indicators li.active {
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+    background-color: #60c7eb;
+    border: 0;
+}
+
+.footer-widget .carousel-indicators {
+    position: absolute;
+    bottom: 13px;
+    left: 90%;
+    z-index: 15;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: -20%;
+}
+
+.author-id {
+    margin-top: 33px;
+
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.author-id img {
+    float: left;
+    overflow: hidden;
+    padding: 10px 20px 0 6px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.author-id .author-text h4 {
+    font-size: 14px;
+}
+
+.author-id .author-text h4:last-child {
+    font-size: 11px;
+    font-family: 'Merriweather', serif;
+}
+
+.author-id .author-text {
+    margin-left: 20px;
+}
+
+.p-date {
+    font-size: 12px;
+    font-style: italic;
+}
+
+#myCarousel {
+    margin-top: 29px;
+}
+
+.custom-post {
+    color: #fff;
+    padding-top: 15px;
+}
+
+.custom-post a {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    padding-top: 15px;
+    transition: all 0.33s;
+}
+
+.custom-post a:hover {
+    color: #60c7eb;
+}

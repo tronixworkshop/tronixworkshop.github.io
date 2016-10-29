@@ -1,0 +1,63 @@
+
+/*===============
+single blog
+=================*/
+
+.single-blog-box .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.single-blog-box .promo-text {
+    font-weight: 500;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    margin: 0;
+    border: 1px solid transparent;
+    width: 90%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.0);
+    color: #fff;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.single-blog-box .promo-text p {
+    color: #fff;
+}
+
+.single-blog-box .promo-text i {
+    padding: 0 5px;
+    font-size: 30px;
+    margin-bottom: -35px;
+}
+
+.single-blog-box .promo-text h5 {
+    color: #fff;
+    margin-top: 0;
+}
+
+.single-blog-box:hover .promo-text {
+    border: 1px solid #fff;
+    width: 90%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.3);
+}
