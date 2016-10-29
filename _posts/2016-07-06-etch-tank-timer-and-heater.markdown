@@ -8,7 +8,9 @@ category: projects
 tags: [github, github-pages, jekyll]
 ---
 
-Bacon ipsum dolor amet short ribs leberkas cow shank filet mignon jowl bacon venison. Salami rump ham hock, fatback short ribs kevin beef ribs pastrami chicken flank tri-tip corned beef. Boudin leberkas ham hock pork belly. Kielbasa tongue capicola sirloin kevin. Cupim fatback ribeye andouille turkey. Pork belly capicola pastrami, burgdoggen hamburger jowl turkey shoulder swine. <!--more-->
+Bacon ipsum dolor amet short ribs leberkas cow shank filet mignon jowl bacon venison.
+<!--more-->
+Salami rump ham hock, fatback short ribs kevin beef ribs pastrami chicken flank tri-tip corned beef. Boudin leberkas ham hock pork belly. Kielbasa tongue capicola sirloin kevin. Cupim fatback ribeye andouille turkey. Pork belly capicola pastrami, burgdoggen hamburger jowl turkey shoulder swine. <!--more-->
 
 Ham bacon ball tip ribeye, alcatra andouille biltong hamburger turkey pancetta prosciutto turducken strip steak. Landjaeger tongue capicola tenderloin prosciutto jerky jowl pastrami ribeye meatball pork chop frankfurter sausage kevin. Hamburger corned beef sirloin chicken cupim rump prosciutto, ham hock meatball kevin beef ribs filet mignon short loin turducken. Burgdoggen jerky porchetta, beef ham hock bacon short ribs tenderloin pork belly chicken spare ribs leberkas boudin. Landjaeger bacon filet mignon ribeye cupim andouille. Turkey ham hock swine jowl, pork pig pork chop kevin hamburger.
 
