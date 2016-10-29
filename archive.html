@@ -6,18 +6,11 @@ permalink: /archive/
 
 <div id="demo">
 
-<article class="post">
-
-  <div class="entry-header text-center">
-    <h1>{{page.title}}</h1>
-  </div>
-
-	<div class="list">
-		{% for post in site.archive %}
-		{% include archive-listing.html %}
-		{% endfor %}
-	</div>
-</article>
+<div class="list">
+  {% for post in site.archive %}
+    {% include archive-listing.html %}
+  {% endfor %}
+</div>
 
   <div class="jplist-panel">
 			<!-- bootstrap pagination control -->
@@ -35,7 +28,7 @@ $('document').ready(function(){
 
 	$('#demo').jplist({
 		itemsBox: '.list'
-		,itemPath: '.post-content'
+		,itemPath: '.post'
 		,panelPath: '.jplist-panel'
 	});
 });

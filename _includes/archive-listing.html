@@ -1,19 +1,23 @@
- <div class="post-content">
-      <header class="entry-header text-center">
-          <h1 class="entry-title" itemprop="name headline">{{post.title}}</h1>
-      </header>
+  <article class="post">
 
-      <div class="post-thumb">
-        <img src="{{post.image}}" alt="{{site.title}}-electronic-lab">
-      </div>
+    <div class="post-content">
+         <header class="entry-header text-center">
+             <h1 class="entry-title" itemprop="name headline">{{post.title}}</h1>
+         </header>
 
-      <div class="entry-content">
-          {{ post.excerpt }}
-          <div class="btn-continue-reading text-center text-uppercase">
-              <a href="{{ post.url | prepend: site.baseurl }}" class="more-link">Continue Reading</a>
-          </div>
-      </div>
+         <div class="post-thumb">
+           <img src="{{post.image}}" alt="{{site.title}}-electronic-lab">
+         </div>
 
-      {% include social-share.html author = post.author datePublished = post.date %}
+         <div class="entry-content">
+             {{ post.excerpt }}
+             <div class="btn-continue-reading text-center text-uppercase">
+                 <a href="{{ post.url | prepend: site.baseurl }}" class="more-link">Continue Reading</a>
+             </div>
+         </div>
 
-  </div>
+         {% include social-share.html author = post.author datePublished = post.date %}
+
+     </div>
+
+  </article>
