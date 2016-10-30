@@ -7,6 +7,7 @@ author: Andy Devanney
 image: "/images/garage.jpg"
 category: projects
 tags: [github, github-pages, jekyll]
+published: false
 ---
 
 Corned beef jerky kielbasa short ribs ham hock, turkey chicken short loin tongue andouille landjaeger spare ribs

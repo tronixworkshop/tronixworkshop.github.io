@@ -6,6 +6,7 @@ author: Andy Devanney
 image: "/images/workshop.jpg"
 category: hacks
 tags: [github, github-pages, jekyll]
+published: false
 ---
 
 new timer circuit

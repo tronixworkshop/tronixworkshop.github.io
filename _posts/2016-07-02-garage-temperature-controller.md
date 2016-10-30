@@ -6,6 +6,7 @@ author: Andy Devanney
 image: "/images/garage.jpg"
 category: projects
 tags: [github, github-pages, jekyll]
+published: false
 ---
 
 Bacon ipsum dolor amet short ribs leberkas cow shank filet mignon jowl bacon venison.

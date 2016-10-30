@@ -6,6 +6,7 @@ author: Andy Devanney
 image: "/images/workshop.jpg"
 category: projects
 tags: [github, github-pages, jekyll]
+published: false
 ---
 
 Ham bacon ball tip ribeye, alcatra andouille biltong hamburger turkey pancetta prosciutto turducken strip steak.

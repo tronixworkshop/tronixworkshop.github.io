@@ -9,7 +9,7 @@ collections:
     my_categories:
       output: true
       permalink: /categories/:name/
-    archive:
+    archives:
       output: true
 
 

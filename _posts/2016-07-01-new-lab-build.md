@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building an Electronics Lab"
+title:  "How I Built my Electronics Workshop (Part 1)"
 date:   2016-07-26 22:31:01 +0100
 author: Andy Devanney
 image: "/images/workshop.jpg"

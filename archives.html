@@ -1,0 +1,35 @@
+---
+layout: page
+title: Circuit Collection
+permalink: /archive/
+---
+
+<div id="demo">
+
+<div class="list">
+  {% for post in site.archives %}
+    {% include archive-listing.html %}
+  {% endfor %}
+</div>
+
+  <div class="jplist-panel">
+			<!-- bootstrap pagination control -->
+			<ul class="pagination"
+			data-control-type="boot-pagination"
+			data-control-name="paging"
+			data-control-action="paging"
+			data-items-per-page="5">
+		</ul>
+	</div>
+</div>
+
+<script>
+$('document').ready(function(){
+
+	$('#demo').jplist({
+		itemsBox: '.list'
+		,itemPath: '.post'
+		,panelPath: '.jplist-panel'
+	});
+});
+</script>

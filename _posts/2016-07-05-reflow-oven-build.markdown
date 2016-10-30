@@ -6,6 +6,7 @@ author: Andy Devanney
 image: "/images/workshop.jpg"
 category: projects
 tags: [github, github-pages, jekyll]
+published: false
 ---
 
 Pastrami short loin pork loin, ground round pork frankfurter short ribs cupim salami brisket corned beef
