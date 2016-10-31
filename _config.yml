@@ -9,6 +9,9 @@ collections:
     my_categories:
       output: true
       permalink: /categories/:name/
+    my_tags:
+      output: true
+      permalink: /tags/:name/
     archives:
       output: true
 

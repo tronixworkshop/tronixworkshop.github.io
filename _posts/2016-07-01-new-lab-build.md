@@ -4,8 +4,9 @@ title:  "How I Built my Electronics Workshop (Part 1)"
 date:   2016-10-30
 author: Andy Devanney
 image: "/images/workshop/lab_img138.jpg"
+image-alt: "my-electronic-workshop"
 category: lab-build
-tags: [workshop, conduit, wiring]
+tags: [conduit, wiring, bench-building]
 ---
 
 It all started last summer, that is I decided to convert my garage into an electronics workshop. The first part was relatively painless, I wanted a nice bright lab so I good paint job was the first task. It took several coats and over several week to finally finish. <!--more-->

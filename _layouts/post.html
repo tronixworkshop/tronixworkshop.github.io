@@ -2,34 +2,50 @@
 layout: default
 ---
 
-{% assign category = site.my_categories | where: "slug", page.category %}
+{% assign post = page %}
+
+{% assign category = site.my_categories | where: "slug", post.category %}
 {% assign category = category[0] %}
 
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <div class="post-thumb">
-          <img src="{{page.image}}" alt="{{site.title}}-electronic-lab">
+          <img src="{{post.image}}" alt="{{post.image-alt}}">
       </div>
       <div class="post-content">
           <header class="entry-header text-center text-uppercase">
               <h6><a href="{{ category.url }}">{{ category.name }}</a></h6>
-              <h1 class="entry-title" itemprop="name headline">{{page.title}}</h1>
+              <h1 class="entry-title" itemprop="name headline">{{post.title}}</h1>
           </header>
           <div class="entry-content" itemprop="articleBody">
               {{ content }}
           </div>
 
-         <div class="decoration">
-            {% if category %}
-                {% capture category_content %}
-                <a class="btn btn-default" href="{{ category.url }}">{{ category.name }}</a>
-                {% endcapture %}
-                    <p>{{ category_content }}</p>
-            {% endif %}
-         </div>
+        {% if category %}
+            {% capture category_content %}
+            <a class="btn btn-default" href="{{ category.url }}">{{ category.name }}</a>
+            {% endcapture %}
+        {% endif %}
 
-         {% include social-share.html author = page.author datePublished = page.date %}
+        {% for post_tag in post.tags %}
+          {% assign tag = site.my_tags | where: "slug", post_tag %}
+          {% if tag %}
+            {% assign tag = tag[0] %}
+                {% capture tags_content_temp %}
+                {{ tags_content }}
+                    <a class="btn btn-default" href="{{ tag.url }}">{{ tag.name }}</a>
+                {% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+          {% endif %}
+        {% endfor %}
+
+        <div class="decoration">
+            <p>
+              {{ category_content }}{{ tags_content }}
+            </p>
+        </div>
+
+
+         {% include social-share.html author = post.author datePublished = post.date %}
 
       </div>
   </article>
-
-  {% include disqus.html %}
