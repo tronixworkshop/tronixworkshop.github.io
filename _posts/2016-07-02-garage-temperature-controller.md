@@ -5,8 +5,9 @@ date:   2016-07-26 22:31:01 +0100
 author: Andy Devanney
 image: "/images/garage.jpg"
 category: projects
-tags: [github, github-pages, jekyll]
+tags: [conduit, wiring, bench-building]
 published: false
+
 ---
 
 Bacon ipsum dolor amet short ribs leberkas cow shank filet mignon jowl bacon venison.

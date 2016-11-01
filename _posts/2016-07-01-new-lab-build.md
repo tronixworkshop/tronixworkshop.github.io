@@ -4,7 +4,6 @@ title:  "How I Built my Electronics Workshop (Part 1)"
 date:   2016-10-30
 author: Andy Devanney
 image: "/images/workshop/lab_img138.jpg"
-image-alt: "my-electronic-workshop"
 category: lab-build
 tags: [conduit, wiring, bench-building]
 ---
