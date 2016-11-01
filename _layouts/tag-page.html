@@ -21,7 +21,7 @@ layout: default
           <h1 class="entry-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
         </header>
         <div class="entry-content">
-          {{ post.excerpt }}
+          {{ post.excerpt | truncatewords: 16 }}
         </div>
         <div class="social-share">
           <span class="social-share-title pull-left text-capitalize">
