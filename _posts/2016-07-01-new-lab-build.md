@@ -18,13 +18,15 @@ Next of course was to improve the poor lighting, I added four more standard tube
 
 ### Preparation
 
-Once the light were on, I gave the floor a nice new coat of garage floor paint to brighten it up a little and hide my messy paint drips. With a nice bright garage I needed a bench to help with conduit installation.
+Once the light were on, I gave the floor a nice new coat of garage floor paint to brighten it up a little and hide my messy paint drips. With a nice bright garage I needed a bench to help with conduit installation. I first went with the same approach as Dave Jones from EEVBlog, How To Build An Electronics Work Bench, but Dave used pine where I used timber and MDF. The result was too wobbly for a workbench but it was fine as a temporary solution to do some conduit installation.
 
-I first went with the same approach as Dave Jones from EEVBlog [How To Build An Electronics Work Bench][bench-build], but he used pine where I used timber and MDF. The result was too wobbly for a workbench but it was fine as a temporary solution to do some conduit installation.
+{% include youtube-videoplayer.html id='GMRvEA8rgJs' %}
+
+I screwed angled brackets to the MDF, in hide sight this wasn't a great idea because the MDF board wasn't strong enough and under and weight strain the bench top would start to bow. Dave uses a much stronger thicker wood, but this was all I could acquire in my price range.
 
 ![making-simple-bench-electronics-lab][bench1]
 
-I screwed angled brackets to the MDF, in hide sight this wasn't a great idea because the MDF board wasn't strong enough and under and weight strain the bench top would start to bow. Dave uses a much stronger thicker wood, but this was all I could acquire in my price range.
+
 
 ![making-simple-bench-electronics-lab][bench2]
 
@@ -54,10 +56,7 @@ to this ...
 
 ![My helpful screenshot](/images/workshop/lab_img138.jpg)
 
-
 [painting]:/images/workshop/lab_img10.jpg "painting the garage"
 [lights]:/images/workshop/lab_img12.jpg "adding extra light"
 [bench1]:/images/workshop/lab_img24.jpg "building a bench"
 [bench2]:/images/workshop/lab_img25.jpg "building a bench"
-
-[bench-build]:https://www.youtube.com/watch?v=GMRvEA8rgJs
