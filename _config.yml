@@ -12,8 +12,8 @@ collections:
     my_tags:
       output: true
       permalink: /tags/:name/
-    archives:
-      output: true
+    # archives:
+    #   output: false
 
 
 gems:
