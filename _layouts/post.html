@@ -44,8 +44,12 @@ layout: default
             </p>
         </div>
 
-
-         {% include social-share.html author = post.author datePublished = post.date %}
+       {% include social-share.html author = post.author datePublished = post.date %}
 
       </div>
+
+     {% include post-navigation.html %}
+
   </article>
+
+     {% include disqus.html %}

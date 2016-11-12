@@ -69,7 +69,7 @@
     }
 
     .latest-first-thumb img, .single-blog-box img, .widget img, .single-promo-box img {
-        width: 100%;
+        width: 50%;
     }
 
     .footer-instagram-section img {
@@ -135,7 +135,7 @@
     }
 
     .latest-first-thumb img, .about-me-img img, .single-blog-box img, .widget img, .single-promo-box img {
-        width: 100%;
+        width: 75%;
     }
 
     .footer-widget .about-me-img img {

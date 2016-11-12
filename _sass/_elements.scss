@@ -13,9 +13,12 @@ body {
     background: #F4F4F4;
 }
 
-span, p, input {
-    font-family: 'Merriweather', serif;
-    line-height: 26px;
+body, span, p, input {
+    font-family: Merriweather;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.9;
+
 }
 
 img {
@@ -27,9 +30,33 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+body, span, p, input {
+    font-family: Merriweather;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.9;
+}
+
+.footer-widget-section {
+    background-color: #333333;
+}
+.footer-widget-section, .footer-widget .widget-title {
+    color: #ffffff;
+}
+.footer-copy {
+    background-color: #222222;
+}
+.footer-copy, .footer-copy a {
+    color: #e2e2e2;
+}
+
 a {
     text-decoration: none;
     display: inline-block;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
 }
 
 ul {

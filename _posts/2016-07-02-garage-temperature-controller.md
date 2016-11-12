@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lab Temperature and Humidity Controller"
-date:   2016-07-26 22:31:01 +0100
+date:   2016-11-1
 author: Andy Devanney
 image: "/images/garage.jpg"
 category: projects

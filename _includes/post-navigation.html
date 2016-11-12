@@ -1,0 +1,22 @@
+<nav class="next-previous-post clearfix" role="navigation">
+  <div class="previous-post pull-left">
+    <div class="nav-previous">
+      {% if page.previous.url %}
+        <a href="{{page.previous.url}}" rel="prev">
+          <i class="fa fa-angle-left"></i>
+          {{page.previous.title}}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="next-post pull-right text-right">
+    <div class="nav-next">
+      {% if page.next.url %}
+        <a href="{{page.next.url}}" rel="next">
+        {{page.next.title}}
+          <i class="fa fa-angle-right"></i>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</nav>

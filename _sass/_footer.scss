@@ -63,3 +63,20 @@ footer
     font-size: 12px;
     margin: 1px;
 }
+
+.tagcloud a {
+    border: 1px solid #60c7eb;
+    border-radius: 1px;
+    color: #60c7eb;
+    display: inline-block;
+    font-size: 11px !important;
+    margin-bottom: 6px;
+    margin-right: 4px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+}
+.tagcloud a:hover {
+    background-color: #60c7eb;
+    color: #ffffff;
+}

@@ -2,15 +2,30 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <aside class="footer-widget">
-                    <div class="about-img"><img src="" alt="{{site.title}}"></div>
-                    <div class="about-content">
-                      Tronixworkshop is a blog about the electronics projects
-                      I create and build in my workshop using anything I can get my hands on from
-                      555 timers to microcontrollers from FPGA's to Operational Amplifiers.
-                    </div>
-                </aside>
+
+              <aside class="footer-widget widget_text">
+                  <h3 class="widget-title text-uppercase">About</h3>
+                  <div class="about-img">
+                    <img src="/assets/images/footer-logo.png" alt="{{site.title}}"></div>
+                  <div class="about-content">
+                    Tronixworkshop is a blog about the electronics projects
+                    created and built in my home workshop using anything I can get my hands on from
+                    555 timers to microcontrollers from FPGA's to Operational Amplifiers.
+                  </div>
+              </aside>
             </div>
+
+
+              <div class="col-md-4">
+                <aside id="tag_cloud-2" class="footer-widget widget_tag_cloud">
+                  <h3 class="widget-title text-uppercase">Tags</h3>
+                  <div class="tagcloud">
+                    {% for tag in site.my_tags %}
+                        <a href="{{ tag.url }}">{{ tag.name }}</a>
+                    {% endfor %}
+                  </aside>
+              </div>
+
         </div>
     </div>
     <div class="footer-copy">
