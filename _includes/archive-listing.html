@@ -5,8 +5,8 @@
              <h1 class="entry-title" itemprop="name headline">{{post.title}}</h1>
          </header>
 
-         <div class="post-thumb">
-           <img src="{{post.image}}" alt="{{site.title}}-electronic-lab">
+         <div class="post-thumb" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+           <img src="{{post.image}}" alt="{{post.title | slugify}}">
          </div>
 
          <div class="entry-content">

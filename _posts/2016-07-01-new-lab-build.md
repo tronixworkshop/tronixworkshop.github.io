@@ -2,7 +2,8 @@
 layout: post
 title:  How to Build an Electronics Workshop (Part 1)
 date:   2016-10-30
-author: Andy Devanney
+dateModified: 2016-11-13
+author: Andrew Devanney
 image: /images/workshop/lab_img138.jpg
 category: lab-build
 tags: [conduit, wiring, bench-building]
@@ -77,7 +78,6 @@ The last job was to wire up the sockets and then finally connect the consumer un
 If I was gonna do this again I may have changed a few things, firstly a thicker conduit or maybe even a trunking, with a single conduit branched off to the needed socket might have been a better solution. My conduit vice was a cheap one from eBay if you're not careful you can mark the conduit very easily. All in all though the result is a nice finish to any workshop hiding the wiring away and safely protecting it from wear and tear.
 
 ![lab-complete][wiring-finished]
-
 
 [garage]:/images/workshop/lab_img1.jpg "what it looked like before starting"
 [painting]:/images/workshop/lab_img10.jpg "painting the garage"

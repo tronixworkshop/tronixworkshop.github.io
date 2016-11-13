@@ -21,8 +21,8 @@ gems:
    - jekyll-seo-tag
 
 # Site settings
-title: tronixworkshop.io
-email: info@tronixworkshop.io
+name: tronixworkshop
+email: hello@tronixworkshop.io
 description: > # this means to ignore newlines until "baseurl:"
   tronixworkshop.io is a blog about electronics projects using
   anything from 555 timers to microcontrollers

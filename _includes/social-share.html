@@ -9,9 +9,15 @@
         {% endif %}
 
         On
-        <time datetime="{{ include.datePublished | date_to_xmlschema }}"
-          itemprop="datePublished">{{ include.datePublished |  date: '%B %d, %Y' }}
+        <time datetime="{{ include.datePublished | date_to_xmlschema }}" itemprop="datePublished">
+          {{ include.datePublished |  date: '%B %d, %Y' }}
         </time>
+
+        <meta itemprop="dateModified" content="{{ include.dateModified | date_to_xmlschema }}" />
+         <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+            <div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject"></div>
+            <meta itemprop="name" content="{{ site.name }}" />
+         </div>
       </p>
 
       <ul class="text-center pull-right">
