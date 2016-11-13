@@ -12,10 +12,9 @@ layout: default
           <img src="{{post.image}}" alt="{{post.title | slugify}}">
       </div>
       <div class="post-content">
-          <header class="entry-header text-center">
-            <h1 class="entry-title text-uppercase" itemprop="name headline">{{post.title}}</h1>
-            <h2>{{ post.sub-heading }}</h2>
-            <h6 class="text-uppercase"><a href="{{ category.url }}">{{ category.name }}</a></h6>
+          <header class="entry-header text-center text-uppercase">
+            <h1 class="entry-title" itemprop="name headline">{{post.title}}</h1>
+            <h6><a href="{{ category.url }}">{{ category.name }}</a></h6>
           </header>
           <div class="entry-content" itemprop="articleBody">
               {{ content }}

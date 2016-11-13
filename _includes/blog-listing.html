@@ -10,16 +10,12 @@
     </div>
 
     <div class="post-content">
-
-        <header class="entry-header text-center">
-            <h1 class="entry-title text-uppercase">
+        <header class="entry-header text-center text-uppercase">
+            <h1 class="entry-title">
               <a href="{{ post.url | prepend: site.baseurl }}" itemprop="name headline">{{ post.title }}
               </a>
             </h1>
-            <h2>{{ post.sub-heading }}</h2>
-            <h6 class="text-uppercase">
-              <a href="{{ post.url | prepend: site.baseurl }}">{{post.categories}}</a>
-            </h6>
+            <h6><a href="{{ post.url | prepend: site.baseurl }}">{{post.categories}}</a></h6>
         </header>
 
         <div class="entry-content" itemprop="articleBody">

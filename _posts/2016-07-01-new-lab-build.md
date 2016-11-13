@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  How to Build an Electronics Workshop (Part 1)
-sub-heading: A two part series on workshop construction
 date:   2016-10-30
 author: Andy Devanney
 image: /images/workshop/lab_img138.jpg
