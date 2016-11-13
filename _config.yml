@@ -18,6 +18,7 @@ collections:
 
 gems:
    - jekyll-paginate
+   - jekyll-seo-tag
 
 # Site settings
 title: tronixworkshop.io
