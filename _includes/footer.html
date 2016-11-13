@@ -6,7 +6,8 @@
               <aside class="footer-widget widget_text">
                   <h3 class="widget-title text-uppercase">About</h3>
                   <div class="about-img">
-                    <img src="/assets/images/footer-logo.png" alt="{{site.title}}"></div>
+                    <img src="/assets/images/footer-logo.png" alt="{{site.title}}">
+                  </div>
                   <div class="about-content">
                     Tronixworkshop is a blog about the electronics projects
                     created and built in my home workshop using anything I can get my hands on from
@@ -16,16 +17,16 @@
             </div>
 
 
-              <div class="col-md-4">
-                <aside id="tag_cloud-2" class="footer-widget widget_tag_cloud">
-                  <h3 class="widget-title text-uppercase">Tags</h3>
-                  <div class="tagcloud">
-                    {% for tag in site.my_tags %}
-                        <a href="{{ tag.url }}">{{ tag.name }}</a>
-                    {% endfor %}
-                  </div>
-                  </aside>
-              </div>
+            <div class="col-md-4">
+              <aside id="tag_cloud-2" class="footer-widget widget_tag_cloud">
+                <h3 class="widget-title text-uppercase">Tags</h3>
+                <div class="tagcloud">
+                  {% for tag in site.my_tags %}
+                      <a href="{{ tag.url }}">{{ tag.name }}</a>
+                  {% endfor %}
+                </div>
+                </aside>
+            </div>
 
         </div>
     </div>
