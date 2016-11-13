@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "How I Built my Electronics Workshop (Part 1)"
+title:  "How to Build an Electronics Workshop (Part 1)"
 date:   2016-10-30
 author: Andy Devanney
 image: "/images/workshop/lab_img138.jpg"
 category: lab-build
 tags: [conduit, wiring, bench-building]
+permalink: /how-to-build-an-electronics-workshop-part1/
 ---
 
 It all started in summer 2015, that is I decided to convert my garage into an electronics workshop. The garage has never really been used before and had been empty for some time, this would be my second workshop over the years. <!--more--> The previous workshop was a converted garden shed that has since been destroyed. I was itching to do something and had a huge interest in electronics and 3d printing. I needed somewhere I could work without distractions, not have to worry about clean up, was free to make a mess and organise my equipment. With this build I tried my best to document everything so I could write this blog.
