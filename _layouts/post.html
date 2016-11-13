@@ -9,12 +9,12 @@ layout: default
 
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <div class="post-thumb" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-          <img itemprop="image" itemscope itemtype="http://schema.org/ImageObject" src="{{post.image}}" alt="{{post.title | slugify}}">
+          <img src="{{post.image}}" alt="{{post.title | slugify}}">
       </div>
       <div class="post-content">
           <header class="entry-header text-center text-uppercase">
             <h1 class="entry-title">
-              <a itemprop="mainEntityOfPage" href="{{ post.url | prepend: site.baseurl }}" itemprop="name headline">{{ post.title }}
+              <a href="{{ post.url | prepend: site.baseurl }}" itemprop="name headline">{{ post.title }}
               </a>
             </h1>
             <h6><a href="{{ category.url }}">{{ category.name }}</a></h6>
