@@ -1,4 +1,4 @@
-<article class="post">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <div class="post-thumb">
         <a href="{{ post.url | prepend: site.baseurl }}">
@@ -13,10 +13,13 @@
 
         <header class="entry-header text-center text-uppercase">
             <h6><a href="{{ post.url | prepend: site.baseurl }}">{{post.categories}}</a></h6>
-            <h1 class="entry-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+            <h1 class="entry-title">
+              <a href="{{ post.url | prepend: site.baseurl }}" itemprop="name headline">{{ post.title }}
+              </a>
+            </h1>
         </header>
 
-        <div class="entry-content">
+        <div class="entry-content" itemprop="articleBody">
             {{ post.excerpt }}
             <div class="btn-continue-reading text-center text-uppercase">
                 <a href="{{ post.url | prepend: site.baseurl }}" class="more-link">Continue Reading</a>
