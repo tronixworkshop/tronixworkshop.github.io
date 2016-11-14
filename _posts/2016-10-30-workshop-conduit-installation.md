@@ -10,7 +10,11 @@ tags: [conduit, wiring, bench-building]
 permalink: /how-to-build-an-electronics-workshop-part1/
 ---
 
-It all started in summer 2015, that is I decided to convert my garage into an electronics workshop. The garage has never really been used before and had been empty for some time, this would be my second workshop over the years. <!--more--> The previous workshop was a converted garden shed that has since been destroyed. I was itching to do something and had a huge interest in electronics and 3d printing. I needed somewhere I could work without distractions, not have to worry about clean up, was free to make a mess and organise my equipment. With this build I tried my best to document everything so I could write this blog.
+It all started in summer 2015, that is I decided to convert my garage into an electronics workshop. The garage has never really been used before and had been empty for some time, this would be my second workshop over the years. <!--more-->
+
+## Introduction
+
+The previous workshop was a converted garden shed that has since been destroyed. I was itching to do something and had a huge interest in electronics and 3d printing. I needed somewhere I could work without distractions, not have to worry about clean up, was free to make a mess and organise my equipment. With this build I tried my best to document everything so I could write this blog.
 
 ![garage-before-work-started][garage]
 
@@ -50,7 +54,7 @@ Temporarily fixing my conduit vice to my bench with some clamps, I later purchas
 
 ![conduit-installation-electronics-lab][conduit1]
 
-It was too cold in the winter and had to wait for warmer weather in the spring to carry on with the conduit installation where I left off. Attaching the conduit to the wall with conduit saddles was a bit tricker than it should have been due to the poor quality saddles purchased, I had looked all over for better quality ones but at the time most suppliers had none in stock. These bad quality ones made the alignment along the wall terrible, the cheap thin cover would warp and snap if not careful.
+It was too cold in the winter and had to wait for warmer weather in the spring to carry on with the conduit installation where I left off. Attaching the conduit to the wall with conduit saddles was a little bit trickier than it should have been due to the poor quality saddles purchased, I had looked all over for better quality ones but at the time most suppliers had none in stock. These bad quality ones made the alignment along the wall terrible, the cheap thin cover would warp and snap if not careful.
 
 The feed into the socket would come from my consumer unit, I roughly marked out where the original socket wire came into the garage, however I later discovered this to be a mistake, and attached the consumer unit above.
 
