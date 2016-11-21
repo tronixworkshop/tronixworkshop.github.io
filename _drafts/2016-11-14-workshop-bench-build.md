@@ -16,11 +16,13 @@ The first bench I built for conduit installation in the first part wasn't fit fo
 
 I went with a straight forward frame this was going to be pinned to wall from the back, with no need for back legs. The front legs would hold all the downward weight, which most of the time would be the bench weight itself and few components and instruments. My original thought was that the bench could be pinned to the wall using Rawl bolts, however this turned out to be a bad idea. The wood I used was 3 by 3 inch square, with a MDF top of 600mm by 2400mm with a 18mm thickness. This presented a problem, I couldn't find Rawl bolts long enough. I did however buy some long screws to fix the frame together at each corner. These came in handy, as I ended up scraping the Rawl bolts idea. The length that fixed to the wall had to pre drilled to allow for marking of the holes in the wall, this meant I had to align the frame level roughly where I wanted it, remove the frame and then drill the holes. Finding things to prop the frame up so I could make level marking wasn't fun!
 
-![bench-frame-building][frame-building]
+![first bench frame screwed together][frame-building]
 
 To the cut the legs to the perfect length I used a circular wood saw, this was so much easier than my first initial cuts my hand. The overall leg length measured 850mm.
 
 The first frame was the hardest, and I needed to remove a 25mm slot for the conduit to fit on the wall, I could have quite easily chiselled out a 25mm by 25mm slot, however with the circular saw it use meant making a couple more cuts and leaving the necessary gap.
+
+![finished bolting legs and fixing the first frame to the wall][first-bench-frame]
 
 Once I decided the correct height of my bench, all the legs were cut to a length of 850mm and used 180mm coach bolts to fix the legs to the bench frame. I tightened the blots up with a 17mm spanner and tested the bench frame with my own weight, I couldn't physically move the frame either by tugging back and fourth.
 
@@ -32,3 +34,4 @@ It was now time to finally put the bench tops on and screw them now. The frame s
 
 
 [frame-building]:/images/workshop/lab_img92.jpg "first frame constructed"
+[first-bench-frame]:/images/workshop/lab_img100.jpg "finished fixing the first frame to the wall"
