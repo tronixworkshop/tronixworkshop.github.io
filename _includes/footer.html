@@ -21,9 +21,16 @@
               <aside id="tag_cloud-2" class="footer-widget widget_tag_cloud">
                 <h3 class="widget-title text-uppercase">Tags</h3>
                 <div class="tagcloud">
-                  {% for tag in site.my_tags %}
-                      <a href="{{ tag.url }}">{{ tag.name }}</a>
+
+                 {% for tag in site.tags %}
+                   {% assign tag1 = tag | first %}
+                    {% for mytag in site.my_tags %}
+                     {% if tag1 == mytag.slug %}
+                        <a href="{{ mytag.url }}">{{ mytag.name }}</a>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
+
                 </div>
                 </aside>
             </div>

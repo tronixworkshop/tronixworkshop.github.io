@@ -10,7 +10,7 @@ tags: [bench-building]
 permalink: /how-to-build-an-electronics-workshop-part2/
 ---
 
-The first bench I built for conduit installation in the first part wasn't fit for purpose and I needed to rethink the design. Most designs on the net seemed to be woodworking designs. I wanted a bench that was both sturdy and simple to build but it needed all the typical features of a laboratory bench.<!--more-->
+The first bench I built for conduit installation in the first part was not really fit for purpose and needed to rethink the design. Most designs on the net seemed to be woodworking designs, I wanted a bench that was both sturdy and simple to build but it needed all the typical features of a laboratory bench.<!--more-->
 
 ## Bench Build
 
@@ -26,12 +26,28 @@ The first frame was the hardest, and I needed to remove a 25mm slot for the cond
 
 Once I decided the correct height of my bench, all the legs were cut to a length of 850mm and used 180mm coach bolts to fix the legs to the bench frame. I tightened the blots up with a 17mm spanner and tested the bench frame with my own weight, I couldn't physically move the frame either by tugging back and fourth.
 
+![legs cut to size and bolted to the frame][fixing-legs]
+
 At this stage I could balance any bits of board I could find to create a temporary bench to start at the other side of the workshop, it made it so much easier when I didn't have to kneel on the floor. The opposite side went together without a problem and I put the frame together in no time at all, the only struggle was get the frame level again, especially now it had to align across to the other bench.
+
+![balancing the bench with anything that could be found for fixing to the wall][level-benches]
 
 At numerous time checking with the level, I was happy to join the two benches together with the final bench on the back wall. This simply consists of two pieces of 3 by 3 at the back and front, to support the MDF bench top. The back piece was screwed to the wall in much the same way as the rest of the benches.
 
+![making sure both benches are level with each other][two-bench-frames]
+
 It was now time to finally put the bench tops on and screw them now. The frame size was designed to allow me to just drop the two longest length straight on, without the need to cut them. The back bench was the only cut I needed to make and it was a perfect cut, although maybe a needed some safety glasses and a dust mask, this may reveal a somewhat amateur side to my approach but by this time it so close to finishing.
 
+![fixing the last pieces of wood to create the last frame][all-bench-frames]
+
+I am definitely happy with finished result of this bench build, its was worth spending the time to rethink the design. I would recommend this approach for a similar use case, however for wood or metal working you may need extra supports on the back.
+
+![the bench tops fixed to the frame completing the benches][finished-benches]
 
 [frame-building]:/images/workshop/lab_img92.jpg "first frame constructed"
 [first-bench-frame]:/images/workshop/lab_img100.jpg "finished fixing the first frame to the wall"
+[fixing-legs]:/images/workshop/lab_img103.jpg "legs cut to size and bolted to the frame"
+[level-benches]:/images/workshop/lab_img107.jpg "finished fixing the first frame to the wall"
+[two-bench-frames]:/images/workshop/lab_img110.jpg "finished fixing the first frame to the wall"
+[all-bench-frames]:/images/workshop/lab_img119.jpg "finished fixing the first frame to the wall"
+[finished-benches]:/images/workshop/lab_img125.jpg "finished fixing the first frame to the wall"
