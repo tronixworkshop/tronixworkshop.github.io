@@ -42,9 +42,14 @@ layout: default
         {% endfor %}
 
         <div class="decoration">
-            <p>
-              {{ category_content }}{{ tags_content }}
-            </p>
+          <p>
+            <span class="decoration-category">
+              {{ category_content }}
+            </span>
+            <span class="decoration-tag">
+              {{ tags_content }}
+            </span>
+          </p>
         </div>
 
        {% include social-share.html author = post.author datePublished = post.date dateModified = post.dateModified %}
