@@ -1,7 +1,7 @@
 
 <div class="table-responsive">
   <table class="table table-bordered table-striped">
-    <caption>{{page.circuit-id}}</caption>
+    <caption>{{include.title}}</caption>
     <thead>
       <tr>
         <th>Qty</th>
@@ -12,7 +12,7 @@
     </thead>
     <tbody>
 
-      {% assign components = (site.data.listings | where: "id" , page.circuit-id) %}
+      {% assign components = (include.table-data) %}
       {% for part in components %}
           <tr>
             <td>{{part.qty}}</td>

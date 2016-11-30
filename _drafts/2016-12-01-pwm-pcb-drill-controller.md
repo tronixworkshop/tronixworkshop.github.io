@@ -30,7 +30,7 @@ So here goes the 555 is wired in an astable configuration meaning the out is con
   <figcaption class="figure-caption">Drill Controller Rev 2 PCB</figcaption>
 </figure>
 
-{% include component-listing.html %}
+{% include component-listing.html title='drill-controller-rev2' table-data = site.data.drill-controller %}
 
 
 [schematics]:/images/drillcontroller_rev02_sch.png "555 timer pulse width 18v PCB drill controller"
