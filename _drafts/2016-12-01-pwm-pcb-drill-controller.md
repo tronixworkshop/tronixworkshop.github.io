@@ -16,12 +16,19 @@ github: 'https://github.com/tronixworkshop/tronixworkshop.github.io'
 {% include download-button.html url = page.github %}
 
 ## Introduction
+A simple circuit comprising of a 555 timer to control the speed of a PCB drill. One of the tools my workshop needed was a pcb drill speed controller, since I seemed to have lost my original controller that came with the drill. The circuit wouldn't need to be over complicated since a simple 555 timer and a power mosfet would be enough to send a PWM signal to the drill to control its speed.
 
-Another tool my shop needed was a pcb drill speed controller since I seemed to have lost my original controller that came will my drill. The circuit wouldn't need to be over complicated since a simple 555 timer and a power mosfet would be enough to send a PWM signal to the drill to control its speed.
+### The Circuit
 
-### Circuit operation
+The 555 timer is wired in an astable configuration meaning the output is constantly switching on and off generating a square wave signal. Adjust the signal should allow us to change the time on (tON) and time off (tOff), the duty cycle, thus creating what is commonly known as pulse width modulation (pwm).
 
-So here goes the 555 is wired in an astable configuration meaning the out is constantly switching on and off, a square wave the controls should allow us to change the time on (tON) and time off (tOff), the duty cycle, thus creating what is commonly known as pulse width modulation (pwm).
+This is a common astable configuration, a variable resistor is employed to adjust the duty cycle to alter the speed of the drill. 18V Power and the variable resistor are connected through screw terminals.
+
+
+Additional Components
+18V DC Power Adapter
+100K Ohm Variable resistor
+Small project enclosure
 
 ![555 timer PCB drill controller][schematics]
 
