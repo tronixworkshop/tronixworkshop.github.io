@@ -42,11 +42,13 @@ Step 12 attach the end stops
 step 13 attach the E3D v6 hot end assembly
 step 14 attach the extruder and PTFE tube
 step 15 wire up the Arduino and Ramps and install Marlin
-step 16 check wiring through pronterface
+step 16 check wiring through Pronterface
 step 17 level the bed with the hot end
 step 18 print a test cube
 
-
+useful drawings
+diagram of the belts for simplicity
+wiring diagram of the arduino and ramps setup
 
 
 [HyperCube][1]
