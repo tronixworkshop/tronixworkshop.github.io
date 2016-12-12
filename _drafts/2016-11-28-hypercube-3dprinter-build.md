@@ -27,24 +27,50 @@ My 3D printed parts were printed by a local printer I found on 3DHubs called [ch
 
 I've documented my progress so others can learn and follow the build, this is also useful for myself to refer back to.
 
+(part 1) - Building the frame
+
+Frame:
+T-Slot 2020 Aluminium Extrusion Profiles for X200 x Y200 x Z155 print bed area
+
+4 x 340mm (X) = 1360 (135)
+4 x 303mm (Y) = 1212 (283)
+4 x 350mm (Z) = 1400 (95)
+2 x 285mm (Bed) = 570 (925)
+1 x 135mm (Bed)
+
 Step 1 cut the extrusion lengths to size
 Step 2 build the frame with corner brackets, and build the bed
 Step 3 attach the shaft clamps to hold the steel smooth rod, note: the left motor mount.
+
+(part 2) - Build and attach the carriages
 Step 4 build the x carriage from y/y joiners and aluminium tube
 Step 5 attach the x gantry/carriage
 Step 6 attach motor mounts and stepper motors
-Step 7 attach the belts
-Step 8 check the movements - left motor anti-clockwise move x/y gantry to upper right
-step 9 attach the Z axis bed to the frame
-step 10 solder the wires to the heat bed and attach the thermistor
-step 11 attach the aluminium heat bed
-Step 12 attach the end stops
+
+(part 3) - Attach the Servos
+Step 7 attach the end stops
+Step 8 attach the belts
+Step 9 check the movements - left motor anti-clockwise move x/y gantry to upper right
+
+(part 4)
+step 10 attach the Z axis bed to the frame
+step 11 solder the wires to the heat bed and attach the thermistor
+step 12 attach the aluminium heat bed
+
+(part 5)
 step 13 attach the E3D v6 hot end assembly
 step 14 attach the extruder and PTFE tube
 step 15 wire up the Arduino and Ramps and install Marlin
+
+(part 6)
 step 16 check wiring through Pronterface
 step 17 level the bed with the hot end
 step 18 print a test cube
+
+(part 7)
+step 19 refinements and tidy up
+
+follow up printing journey and learning.
 
 useful drawings
 diagram of the belts for simplicity
@@ -62,12 +88,3 @@ Notes: -
 
 useful links
 http://makezine.com/projects/the-makergear-mosaic-3d-printer-part-viii-the-first-print/
-
-Frame:
-T-Slot 2020 Aluminium Extrusion Profiles for X200 x Y200 x Z155 print bed area
-
-4 x 340mm (X) = 1360 (135)
-4 x 303mm (Y) = 1212 (283)
-4 x 350mm (Z) = 1400 (95)
-2 x 285mm (Bed) = 570 (925)
-1 x 135mm (Bed)
