@@ -10,11 +10,11 @@ tags: [hypercube, 3dprinter]
 permalink: /how-to-build-a-3dprinter-part1/
 ---
 
-One of the most exciting projects to build is a 3D printer, I have always wanted to build one as soon as heard about them.  I have followed a lot of different designs over the years and had almost committed to buying a new Prusa MK2 kit before deciding to build my own. This project bring a lot of different skills together, while complicated its also extremely obvious at the same time.
+3d printers are a great tool to rapidly prototype designs cheaply and easily, building your own printer can be quite challenging, but its something I've always wanted to do. I found a design online that was both cheap a easy to build. This will be the start of the a series of posts following my build.
 <!--more-->
 
 ## Introduction
-The design I chose to build is called the [HyperCube] and was designed By [Tech2c on YouTube], I really liked this design because of its simplicity while still fulfilling the requirements of a great 3D printer. This build is based on a [CoreXY] design, uses a cantilever Z axis for the bed, and the X gantry uses a light weight anodised Aluminium tube instead of solid steels ones. The frame of the printer is built with T-Slot Aluminium extrusion and T-Slot nuts making assembly extremely simple. The aluminium was bought in 1.5 meter lengths and cut down to size to save a little money, I was happy to follow Tech2c exact method of cutting this extrusion using a metre block, which turned out with precise results.
+The design chose to build is called the [HyperCube] and was designed By [Tech2c on YouTube], I really liked this design because of its simplicity while still fulfilling the requirements of a great 3D printer. This build is based on a [CoreXY] design, uses a cantilever Z axis for the bed, and the X gantry uses a light weight anodised Aluminium tube instead of solid steels ones. The frame of the printer is built with T-Slot Aluminium extrusion and T-Slot nuts making assembly extremely simple. The aluminium was bought in 1.5 meter lengths and cut down to size to save a little money, I was happy to follow Tech2c exact method of cutting this extrusion using a metre block, which turned out with precise results.
 
  -- insert image of cutting set up
 

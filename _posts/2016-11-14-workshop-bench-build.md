@@ -14,7 +14,7 @@ The first bench built for conduit installation in [part 1] was not really fit fo
 
 ## Bench Build
 
-I went with a straight forward frame this was going to be pinned to wall from the back, with no need for back legs. The front legs would hold all the downward weight, which most of the time would be the bench weight itself and few components and instruments. My original thought was that the bench could be pinned to the wall using Rawl bolts, however this turned out to be a bad idea. The wood I used was 3 by 3 inch square, with a MDF top of 2400mm by 600mm with a 18mm thickness. This presented a problem, I couldn't find Rawl bolts long enough as a section of the wall was single course brick. I did however buy some long screws to fix the frame together at each corner. These came in handy, as I ended up scraping the Rawl bolts idea. The length that fixed to the wall had to pre drilled to allow for marking of the holes in the wall, this meant I had to align the frame level roughly where I wanted it, remove the frame and then drill the holes. Finding things to prop the frame up so I could make level marking wasn't fun!
+I went with a straight forward frame this was going to be pinned to wall from the back, with no need for back legs. The front legs would hold all the downward weight, which most of the time would be the bench weight itself and few components and instruments. My original thought was that the bench could be pinned to the wall using Rawl bolts, however this turned out to be a bad idea. The wood I used was 3 by 3 inch square, with a MDF top of 600mm by 2400mm with a 18mm thickness. This presented a problem, I couldn't find Rawl bolts long enough as a section of the wall was single course brick. I did however buy some long screws to fix the frame together at each corner. These came in handy, as I ended up scraping the Rawl bolts idea. The length that fixed to the wall had to pre drilled to allow for marking of the holes in the wall, this meant I had to align the frame level roughly where I wanted it, remove the frame and then drill the holes. Finding things to prop the frame up so I could make level marking wasn't fun!
 
 ![first bench frame screwed together][frame-building]
 
@@ -28,7 +28,7 @@ Deciding the correct height of my bench at around 850-900mm, all the legs were c
 
 ![legs cut to size and bolted to the frame][fixing-legs]
 
-At this stage a temporary table top was created by balancing any bits of board I could find to make working on the other side of the workshop more productive, it made it so much easier when I didn't have to kneel on the floor. The opposite side went together without a problem and I put the frame together in no time at all, the only struggle was to keep the frame level especially now it had to align across to the other bench.
+At this stage a temporary table top was created by balancing any bits of board I could find to make working on the other side of the workshop more productive, it made it so much easier when I didn't have to kneel on the floor. The opposite side went together without a problem and I put the frame together in no time at all, the only struggle was get the frame level again, especially now it had to align across to the other bench.
 
 ![balancing the bench with anything that could be found for fixing to the wall][level-benches]
 
