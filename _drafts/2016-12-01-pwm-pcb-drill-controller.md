@@ -4,7 +4,7 @@ title: 555 Timer PWM 18V Mini PCB Drill Speed Controller
 date: 2016-11-28
 dateModified: 2016-12-01
 author: Andrew Devanney
-image: /images/drill-controller/drill-controller.jpg
+image: /images/drill-controller/drill-controller-stand.jpg
 category: projects
 tags: [555, pwm]
 permalink: /archive/555-timer-pwm-drill-controller/
@@ -29,7 +29,6 @@ This circuit is using a common astable configuration to generate a simple pulse,
 A potentiometer (100k) is employed to adjust the duty cycle to alter the speed of the drill. An Additional 18V Power and the potentiometer are connected through screw terminals.
 
 ![Schematics diagram of my 555 timer PCB drill controller][schematics]
-
 ![Eagle PCB of my 555 timer PCB drill controller][pcb]
 
 <!-- <figure class="figure">
@@ -41,4 +40,4 @@ A potentiometer (100k) is employed to adjust the duty cycle to alter the speed o
 
 [schematics]:/images/drill-controller/drillcontroller_rev02_sch.png "schematic of my 555 timer pulse width 18v PCB drill controller"
 [pcb]:/images/drill-controller/drillcontroller_rev02_pcb.png "Bottom layer PCB drawing of my 555 timer pulse width 18v PCB drill controller"
-[drill-controller]:/images/drill-controller/drill-controller-stand.jpg "The full setup, with drill, controller and stand"
+[drill-controller]:/images/drill-controller/drill-controller.jpg "The full setup, with drill, controller and stand"
