@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  How to Build an Electronics Workshop (Part 2)
+title:  How I Build my Electronics Workshop (Part 2)
 date:   2016-11-14
 dateModified: 2016-11-14
 author: Andrew Devanney
 image: /images/workshop/lab_img125.jpg
 category: lab-build
 tags: [bench-building]
-permalink: /how-to-build-an-electronics-workshop-part2/
+permalink: /how-i-build-my-electronics-workshop-part2/
 ---
 
 The first bench built for conduit installation in [part 1] was not really fit for purpose and needed to rethink the design. Most designs on the net seemed to be woodworking designs, I wanted a bench that was both sturdy and simple to build but it needed all the typical features of a laboratory bench.<!--more-->
@@ -44,7 +44,7 @@ I am definitely happy with finished result of this bench build, its was worth sp
 
 ![the bench tops fixed to the frame completing the benches][finished-benches]
 
-[part 1]: http://tronixworkshop.io/how-to-build-an-electronics-workshop-part1/
+[part 1]: http://tronixworkshop.io/how-i-build-my-electronics-workshop-part1/
 
 [frame-building]:/images/workshop/lab_img92.jpg "First bench frame screwed together with 180mm screws, this frame need a 25mm slot removed for conduit"
 [first-bench-frame]:/images/workshop/lab_img100.jpg "Frame finished by bolted legs to frame and screwed to the wall"

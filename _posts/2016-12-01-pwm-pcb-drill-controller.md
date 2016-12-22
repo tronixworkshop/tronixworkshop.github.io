@@ -1,8 +1,8 @@
 ---
 layout:  post
 title: 555 Timer PWM 18V Mini PCB Drill Speed Controller
-date: 2016-11-28
-dateModified: 2016-12-01
+date: 2016-12-01
+dateModified: 2016-12-22
 author: Andrew Devanney
 image: /images/drill-controller/drill-controller-stand.jpg
 category: projects
@@ -17,16 +17,12 @@ A simple circuit comprising of a 555 timer and a power mosfet to control the spe
 <!-- {% include download-button.html url = page.github %} -->
 
 ## Introduction
- One of the tools my workshop needed was a pcb drill speed controller, since I seemed to have lost my original controller that came with the drill. The circuit wouldn't need to be over complicated since a simple 555 timer and a power mosfet would be enough to send a PWM signal to the drill to control its speed.
+ One of the tools my workshop needed was a pcb drill speed controller, since I have lost my original controller that came with the drill. The circuit wouldn't need to be over complicated since a simple 555 timer and a power mosfet to drive it at 18v would be enough to send a PWM signal to the drill to control its speed.
 
  ![The full setup, with drill, controller and stand][drill-controller]
 
 ### The Circuit
-The 555 timer is wired in an astable configuration meaning the output is constantly switching on and off generating a square wave signal. Adjusting the square wave output should allow us to change the time on (tON) and time off (tOff), the duty cycle, or what is commonly referred to as pulse width modulation (pwm).
-
-This circuit is using a common astable configuration to generate a simple pulse, which can be modified using a 100k ohm potentiometer
-
-A potentiometer (100k) is employed to adjust the duty cycle to alter the speed of the drill. An Additional 18V Power and the potentiometer are connected through screw terminals.
+This controller circuit generates a PWM signal to control the drill speed, it uses a 555 timer in astable configuration. The duty cycle, or on/off time, can be modified by adjusting the 100k ohm potentiometer connected through screw terminals (X2), thus changing the drills speed. The mini drill requires an 18v supply and this is driven though Q2 IRF540 mosfet to separate the load voltage from the 5v supply voltage that is used for the rest of the circuit.
 
 ![Schematics diagram of my 555 timer PCB drill controller][schematics]
 ![Eagle PCB of my 555 timer PCB drill controller][pcb]

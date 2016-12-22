@@ -10,6 +10,9 @@ tags: [measurements, arduino]
 permalink: /arduino-temperature-humidity-controller-part1/
 ---
 
+
+<!--more-->
+
 ## Design and prototype
 
 With typical British weather we need to maintain the temperature in the workshop, but I wanted to create the controller myself rather than just buying a digital thermostat and wiring that to a heater, where's the fun in that - also it solve a couple problems, my PCB equipment had been in storage for some time, in a cellar, and had travelled around to different houses over the years. It was a good idea to test this stuff out on something simple, plus my electronics skills have diminished, and I've gotten rusty.
