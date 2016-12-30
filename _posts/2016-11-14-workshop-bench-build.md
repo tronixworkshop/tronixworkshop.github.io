@@ -20,6 +20,8 @@ I went with a straight forward frame this was going to be pinned to wall from th
 
 To the cut the legs to the perfect length I used a circular wood saw, this was so much easier than my first initial cuts my hand. The overall leg length measured 850mm.
 
+{% include ads/content-ads.html %}
+
 The first frame was the hardest, and I needed to remove a 25mm slot for the conduit to fit on the wall, I could have quite easily chiselled out a 25mm by 25mm slot, however with the circular saw it just meant making a couple more cuts and leaving the necessary gap.
 
 ![finished bolting legs and fixing the first frame to the wall][first-bench-frame]

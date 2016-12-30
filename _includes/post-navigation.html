@@ -4,7 +4,7 @@
       {% if page.previous.url %}
         <a href="{{page.previous.url}}" rel="prev">
           <i class="fa fa-angle-left"></i>
-          {{page.previous.title}}
+          {{ page.previous.title | truncatewords: 6 }}
         </a>
       {% endif %}
     </div>
@@ -13,7 +13,7 @@
     <div class="nav-next">
       {% if page.next.url %}
         <a href="{{page.next.url}}" rel="next">
-        {{page.next.title}}
+        {{ page.next.title | truncatewords: 6 }}
           <i class="fa fa-angle-right"></i>
         </a>
       {% endif %}

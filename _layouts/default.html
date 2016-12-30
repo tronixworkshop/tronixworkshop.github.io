@@ -11,6 +11,11 @@
     <!--main content start-->
     <div class="main-content">
         <div class="container">
+
+          <div align="center" class="leader-ads">
+            {% include ads/leader.html %}
+          </div>
+
             <div class="row">
               <div class="col-md-8">
                 {{ content }}
@@ -19,6 +24,11 @@
                 {% include sidebar.html %}
               </div>
             </div>
+
+          <div align="center" class="leader-ads">
+              {% include ads/leader-bottom.html %}
+          </div>
+
         </div>
     </div>
     <!-- end main content-->
