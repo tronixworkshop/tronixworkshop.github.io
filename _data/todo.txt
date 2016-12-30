@@ -1,0 +1,12 @@
+ -- backend fixes --
+
+fix the favicon 
+move to a octopress version or a yeoman build using grunt or gulp
+look into image optimation and watermarking using grunt or gulp
+minify the js, sass,images and html
+
+use the following tools to verify the changes
+https://varvy.com/
+https://gtmetrix.com/analyze.html
+
+setup a https version using cloudflare and github pages

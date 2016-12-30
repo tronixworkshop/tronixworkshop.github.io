@@ -1,0 +1,14 @@
+logic analyser and cables £20
+flash memory (eeprom) (check current stock) £2
+tft lcd £4
+stm32 discovery board £20
+lattice fpga breakout board
+Teensy 3 ??
+2* 16 lcd * 2
+
+
+
+
+
+
+
