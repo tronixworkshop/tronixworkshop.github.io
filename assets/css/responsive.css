@@ -1,5 +1,5 @@
 /* lg */
-@media (min-width: 1400px) {
+ (min-width: 1400px) {
     .show-search {
         right: 20%;
     }
@@ -80,6 +80,15 @@
         max-width: 100% !important;
     }
 
+    .post-content {
+        padding: 0 15px;
+        overflow: hidden;
+    }
+
+    .container {
+    padding-left: 0;
+    padding-right: 0;
+
 }
 
 /* xs */
@@ -146,10 +155,28 @@
         padding-top: 12%;
     }
 
+    .post-content {
+        padding: 0 15px;
+        overflow: hidden;
+    }
+
+    .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 }
 
 /* XS Portrait */
 @media (max-width: 479px) {
 
+  .post-content {
+      padding: 0 15px;
+      overflow: hidden;
+  }
+
+  .container {
+  padding-left: 0;
+  padding-right: 0;
 
 }
