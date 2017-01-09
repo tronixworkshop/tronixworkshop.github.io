@@ -8,6 +8,7 @@
 
     (function () {
         $("[data-sticky_column]").stickit({
+            screenMinWidth: 1024,
             scope: StickScope.Parent,
             top: 0
         });
@@ -70,5 +71,3 @@
 
 
 })(jQuery);
-
-
