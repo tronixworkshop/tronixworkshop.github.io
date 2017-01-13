@@ -46,6 +46,46 @@ Step 1 cut the extrusion lengths to size
 Step 2 build the frame with corner brackets, and build the bed
 Step 3 attach the shaft clamps to hold the steel smooth rod, note: the left motor mount.
 
+## images
+
+![][all-parts]
+![][all-parts2]
+![][bed-assembly-fitted]
+![][both-belts-fitted]
+![][cut-to-length]
+[e3d-hotend]
+[extrusion-cut-down]
+[extrusion]
+[fan-blower-fitted]
+[frame-building]
+[idlers-setup]
+[idlers-fitted]
+[idlers-motor-bracket-fitted]
+[idlers]
+[printed-parts]
+[protecting-with-tape]
+[single-frame]
+[testing-stepper-motors]
+[testing-stepper-motors2]
+[two-frames]
+[x-stepper-motor-bracket]
+[xy-assembly-back]
+[xy-assembly-front]
+[xy-assembly-fitted]
+[xy-joiners]
+[y-axis-and-xy-assembly]
+[y-axis-fitted]
+[y-motor-bracket-fitted]
+[y-motor-bracket-fitted2]
+[z-axis-bracket-fitted]
+[z-axis-fitted]
+[z-axis-lead-screw-fitted]
+[z-axis-lead-screw-fitted2]
+[z-bed-assembly]
+
+
+
+
 [HyperCube]: http://www.thingiverse.com/thing:1752766
 [Tech2c on YouTube]: https://www.youtube.com/playlist?list=PLIaArjwViQRVAERWRrYfe9rtiwvvRGCzw
 [CoreXY]: http://corexy.com/theory.html
