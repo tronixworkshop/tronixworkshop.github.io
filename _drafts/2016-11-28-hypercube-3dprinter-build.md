@@ -33,6 +33,17 @@ My 3D printed parts were printed by a local printer I found on 3DHubs called [ch
 
 (part 1) - Building the frame
 
+The aluminium extrusion used for the frame build was a slightly different type from the one Tech2c used in his build, the type I acquired was listed as type-I slot 5, this was lost on me, it meant 5 mm slot. The t-slot nuts used required a 6mm slot, this still works ok, however the nuts don't drop straight in, there's a slight knack to getting them in and to horizontally lay flat in the T-slot.
+
+I first built up two of the side squares using x (340mm) and z (350mm). Using aluminium corner brackets to join the lengths together. Once the two frames were constructed these were joined together with two corner brackets to the y (303mm) lengths of extrusion. The two frames were checked with a tri-square for any deviation in the corner brackets and extrusion cuts that may have cause variations in the cube.
+
+Once these two frames are joined together the y axis brackets and axis steel rods could be fitted to the frame, also adding a bearings to the steel rod.
+
+At point it's time to assemble the xy joiners  with the anodised aluminium rods. The xy joiners need rollers with a 20mm m3 hex screw and nut. The aluminium is clamped in place with 20mm m3 screws as well.
+
+When the x carriage assembly has been constructed it's time to attached it to the y axis bearings. This part was the most time consuming aspect of this design, the xy joiner covers if over tightened may cause the carriage to screw slightly. To overcome this I first attached the carriage to the bearings and adjusted for the best travel and smoothness to see if any binding was present. Attaching the covers however can affect
+
+
 Frame:
 T-Slot 2020 Aluminium Extrusion Profiles for X200 x Y200 x Z155 print bed area
 
