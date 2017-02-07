@@ -53,35 +53,35 @@ Step 3 attach the shaft clamps to hold the steel smooth rod, note: the left moto
 ![][bed-assembly-fitted]
 ![][both-belts-fitted]
 ![][cut-to-length]
-[e3d-hotend]
-[extrusion-cut-down]
-[extrusion]
-[fan-blower-fitted]
-[frame-building]
-[idlers-setup]
-[idlers-fitted]
-[idlers-motor-bracket-fitted]
-[idlers]
-[printed-parts]
-[protecting-with-tape]
-[single-frame]
-[testing-stepper-motors]
-[testing-stepper-motors2]
-[two-frames]
-[x-stepper-motor-bracket]
-[xy-assembly-back]
-[xy-assembly-front]
-[xy-assembly-fitted]
-[xy-joiners]
-[y-axis-and-xy-assembly]
-[y-axis-fitted]
-[y-motor-bracket-fitted]
-[y-motor-bracket-fitted2]
-[z-axis-bracket-fitted]
-[z-axis-fitted]
-[z-axis-lead-screw-fitted]
-[z-axis-lead-screw-fitted2]
-[z-bed-assembly]
+![][e3d-hotend]
+![][extrusion-cut-down]
+![][extrusion]
+![][fan-blower-fitted]
+![][frame-building]
+![][idlers-setup]
+![][idlers-fitted]
+![][idlers-motor-bracket-fitted]
+![][idlers]
+![][printed-parts]
+![][protecting-with-tape]
+![][single-frame]
+![][testing-stepper-motors]
+![][testing-stepper-motors2]
+![][two-frames]
+![][x-stepper-motor-bracket]
+![][xy-assembly-back]
+![][xy-assembly-front]
+![][xy-assembly-fitted]
+![][xy-joiners]
+![][y-axis-and-xy-assembly]
+![][y-axis-fitted]
+![][y-motor-bracket-fitted]
+![][y-motor-bracket-fitted2]
+![][z-axis-bracket-fitted]
+![][z-axis-fitted]
+![][z-axis-lead-screw-fitted]
+![][z-axis-lead-screw-fitted2]
+![][z-bed-assembly]
 
 
 
@@ -103,7 +103,7 @@ Step 3 attach the shaft clamps to hold the steel smooth rod, note: the left moto
 [frame-building]:/images/hypercube-3dprinter/extrusion.jpg "constructing the printer frame"
 [idlers-setup]:/images/hypercube-3dprinter/idlers-setup.jpg "making the idlers"
 [idlers-fitted]:/images/hypercube-3dprinter/idlers-fitted.jpg "fitting" the idlers"
-[idlers-motor-bracket-fitted]:/images/hypercube-3dprinter/idlers-motor-bracket-fitted.jpg "fitting the idlers"
+[idlers-motor-bracket-fitted]:/images/hypercube-3dprinter/idlers-motor-brackets-fitted.jpg "fitting the idlers"
 [idlers]:/images/hypercube-3dprinter/idlers.jpg "fitting the idlers"
 [printed-parts]:/images/hypercube-3dprinter/printed-parts.jpg "my printed parts"
 [protecting-with-tape]:/images/hypercube-3dprinter/protecting-with-tape.jpg "protecting the aluminium with masking tape"
@@ -120,7 +120,7 @@ Step 3 attach the shaft clamps to hold the steel smooth rod, note: the left moto
 [y-axis-fitted]:/images/hypercube-3dprinter/y-axis-fitted.jpg "y axis fitted to printer frame"
 [y-motor-bracket-fitted]:/images/hypercube-3dprinter/y-motor-bracket-fitted.jpg "y axis stepper motor brackets (right side)"
 [y-motor-bracket-fitted2]:/images/hypercube-3dprinter/y-motor-bracket-fitted2.jpg "y axis stepper motor brackets (right side)"
-[z-axis-bracket-fitted]:/images/hypercube-3dprinter/z-axis-bracket-fitted.jpg "z axis bracket fitted"
+[z-axis-bracket-fitted]:/images/hypercube-3dprinter/z-axis-brackets-fitted.jpg "z axis bracket fitted"
 [z-axis-fitted]:/images/hypercube-3dprinter/z-axis-fitted.jpg "z axis fitted"
 [z-axis-lead-screw-fitted]:/images/hypercube-3dprinter/z-axis-lead-screw-fitted.jpg "z axis lead screw fitted"
 [z-axis-lead-screw-fitted2]:/images/hypercube-3dprinter/z-axis-lead-screw-fitted2.jpg "z axis lead screw fitted"
