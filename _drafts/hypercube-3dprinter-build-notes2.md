@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Building the Hypercube 3D Printer Part 1
-date:   2016-12-12
-dateModified: 2016-12-12
+date:   2016-02-20
+dateModified: 2016-02-20
 author: Andrew Devanney
-image: /images/hypercube-3dprinter/xy-assembly-fitted.jpg
+image: /images/
 category: projects
 tags: [hypercube, 3dprinter]
-permalink: /building-hypercube-3dprinter-part1/
+permalink: /building-hypercube-3dprinter-notes2/
 ---
 
 3d printers are a great tool to rapidly prototype designs cheaply and easily, building your own printer can be quite challenging, but its something I've always wanted to do. I found a design online that was both cheap a easy to build. This will be the start of the a series of posts following my build.
