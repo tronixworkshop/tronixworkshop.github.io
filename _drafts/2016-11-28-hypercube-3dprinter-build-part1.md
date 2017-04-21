@@ -59,19 +59,24 @@ The next step is to add the stepper motor to the holders, the central hole in th
 Frame:
 T-Slot 2020 Aluminium Extrusion Profiles for X200 x Y200 x Z155 print bed area
 
-| Header One     | Header Two     |
-| :------------- | :------------- |
-| Item One       | Item Two       |
+{:.table .table-bordered .table-striped}
+| Qty    | Dimension | Length   |
+| :----: | :-------- | :---------
+| 4      | X         | 340 mm   |
+| 4      | Y         | 303 mm   |
+| 4      | Z         | 350 mm   |
+| 2      | Bed       | 285 mm   |
+| 1      | Bed       | 135 mm   |
 
-4 x 340mm (X) = 1360 (135)
+<!-- 4 x 340mm (X) = 1360 (135)
 4 x 303mm (Y) = 1212 (283)
 4 x 350mm (Z) = 1400 (95)
 2 x 285mm (Bed) = 570 (925)
-1 x 135mm (Bed)
+1 x 135mm (Bed) -->
 
-Step 1 cut the extrusion lengths to size
-Step 2 build the frame with corner brackets, and build the bed
-Step 3 attach the shaft clamps to hold the steel smooth rod, note: the left motor mount.
+* Step 1 cut the extrusion lengths to size
+* Step 2 build the frame with corner brackets, and build the bed
+* Step 3 attach the shaft clamps to hold the steel smooth rod, note: the left motor mount.
 
 ## images
 
