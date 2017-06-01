@@ -191,6 +191,13 @@ a.more-link:hover {
   text-indent: 0;
 }
 
+img + em {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  text-indent: 0;
+}
+
 /* ===========
 Github download-button
 ==============*/

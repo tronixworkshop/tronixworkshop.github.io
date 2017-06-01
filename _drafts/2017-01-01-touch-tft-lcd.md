@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How I Build my Electronics Workshop (Part 3)
+title:  TFT LCD 
 date:   2016-12-22
 dateModified: 2016-12-22
 author: Andrew Devanney
