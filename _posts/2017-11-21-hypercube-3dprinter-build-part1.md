@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Building the Hypercube 3D Printer Part 1
-date:   2017-06-01
-dateModified: 2017-06-01
+date:   2017-11-21
+dateModified: 2017-11-21
 author: Andrew Devanney
 image: /images/hypercube-3dprinter/xy-assembly-fitted.jpg
 category: projects
