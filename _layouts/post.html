@@ -7,61 +7,63 @@ layout: default
 {% assign category = site.my_categories | where: "slug", post.category %}
 {% assign category = category[0] %}
 
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="post-thumb">
-          <img itemprop="image" itemscope itemtype="http://schema.org/ImageObject" src="{{post.image}}" alt="{{post.title | slugify}}">
-      </div>
-      <div class="post-content">
-          <header class="entry-header text-center text-uppercase">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="post-thumb">
+        <img itemprop="image" itemscope itemtype="http://schema.org/ImageObject" src="{{post.image}}" alt="{{post.title | slugify}}">
+    </div>
+    <div class="post-content">
+        <header class="entry-header text-center text-uppercase">
             <h1 class="entry-title">
-              <a href="{{ post.url | prepend: site.baseurl }}" itemprop="name headline">{{ post.title }}
-              </a>
+                <a href="{{ post.url | prepend: site.baseurl }}" itemprop="name headline">{{ post.title }}
+                </a>
             </h1>
-            <h6><a href="{{ category.url }}">{{ category.name }}</a></h6>
-          </header>
-          <div class="entry-content" itemprop="articleBody">
-              {{ content }}
-          </div>
+            <h6>
+                <a href="{{ category.url }}">{{ category.name }}</a>
+            </h6>
+        </header>
+        <div class="entry-content" itemprop="articleBody">
+            {{ content }}
+        </div>
 
         {% if category %}
             {% capture category_content %}
-            <a class="btn btn-default" href="{{ category.url }}">{{ category.name }}</a>
+                <a class="btn btn-default" href="{{ category.url }}">{{ category.name }}</a>
             {% endcapture %}
         {% endif %}
 
         {% for post_tag in post.tags %}
-          {% assign tag = site.my_tags | where: "slug", post_tag %}
-          {% if tag %}
-            {% assign tag = tag[0] %}
+            {% assign tag = site.my_tags | where: "slug", post_tag %}
+            {% if tag %}
+                {% assign tag = tag[0] %}
                 {% capture tags_content_temp %}
-                {{ tags_content }}
+                    {{ tags_content }}
                     <a class="btn btn-default" href="{{ tag.url }}">{{ tag.name }}</a>
                 {% endcapture %}
-            {% assign tags_content = tags_content_temp %}
-          {% endif %}
+                {% assign tags_content = tags_content_temp %}
+            {% endif %}
         {% endfor %}
 
         <div class="decoration">
-          <p>
-            <span class="decoration-category">
-              {{ category_content }}
-            </span>
-            <span class="decoration-tag">
-              {{ tags_content }}
-            </span>
-          </p>
+            <p>
+                <span class="decoration-category">
+                    {{ category_content }}
+                </span>
+                <span class="decoration-tag">
+                    {{ tags_content }}
+                </span>
+            </p>
         </div>
 
-       {% include social-share.html author = post.author datePublished = post.date dateModified = post.dateModified %}
+        {% include social-share.html author = post.author datePublished = post.date dateModified = post.dateModified %}
 
-      </div>
+    </div>
 
-     {% include post-navigation.html %}
+    {% include post-navigation.html %}
 
-  </article>
+</article>
 
-  <div align="center" class="leader-ads">
-      {% include ads/leader-bottom.html %}
-  </div>
+<div align="center" class="leader-ads">
+    {% include ads/leader-bottom.html %}
+</div>
 
-     {% include disqus.html %}
+{% include disqus.html %}
